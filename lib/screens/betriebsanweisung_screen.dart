@@ -5,7 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../models/sicherheitsdatenblatt.dart';
 import '../services/data_service.dart';
-import '../theme/ba_colors.dart';
+import '../widgets/ba_header.dart';
+import '../widgets/ba_product_section.dart';
+import '../widgets/ba_hazards_section.dart';
+import '../widgets/ba_protective_measures_section.dart';
+import '../widgets/ba_emergency_section.dart';
+import '../widgets/ba_first_aid_section.dart';
+import '../widgets/ba_disposal_section.dart';
 
 /// Screen that displays a complete Betriebsanweisung for a specific product
 ///
@@ -132,200 +138,60 @@ class _BetriebsanweisungContent extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // Section 1: Header
-              _PlaceholderSection(
-                title: 'Header',
-                backgroundColor: baOrange,
-                textColor: baTextLight,
-                content: 'Nr.: ${sdb.documentNumber}\n'
-                    'Betriebsanweisung gem. §14 GefStoffV\n'
-                    'Stand: ${sdb.documentDate}\n'
-                    'Betrieb: ${sdb.companyName}',
+              BAHeader(
+                documentNumber: sdb.documentNumber,
+                documentDate: sdb.documentDate,
+                companyName: sdb.companyName,
               ),
 
               // Section 2: Gefahrstoffbezeichnung (Product Section)
-              _PlaceholderSection(
-                title: 'Gefahrstoffbezeichnung',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: 'Produkt: ${sdb.name}\n'
-                    'Kategorie: ${sdb.hazardCategory}\n'
-                    'Piktogramme: ${sdb.pictograms.join(", ")}',
+              BAProductSection(
+                productName: sdb.name,
+                pictogramCode: sdb.pictograms.isNotEmpty
+                    ? sdb.pictograms.first
+                    : 'ghs07', // Default to general hazard if no pictogram
+                hazardCategory: sdb.hazardCategory,
               ),
 
               // Section 3: Gefahren für Mensch und Umwelt
-              _PlaceholderSection(
-                title: 'Gefahren für Mensch und Umwelt',
-                backgroundColor: baOrange,
-                textColor: baTextLight,
-                headerOnly: true,
-              ),
-              _PlaceholderSection(
-                title: '',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: sdb.hazardsDescription.isEmpty
+              BAHazardsSection(
+                hazardsDescription: sdb.hazardsDescription.isEmpty
                     ? '[Gefahrenbeschreibung wird hier angezeigt]'
                     : sdb.hazardsDescription,
-                showBorder: false,
               ),
 
               // Section 4: Schutzmaßnahmen und Verhaltensregeln
-              _PlaceholderSection(
-                title: 'Schutzmaßnahmen und Verhaltensregeln',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: sdb.protectiveMeasures.isEmpty
-                    ? 'Schutzausrüstung: ${sdb.safetyEquipment.join(", ")}\n'
-                        '[Schutzmaßnahmen werden hier angezeigt]'
-                    : 'Schutzausrüstung: ${sdb.safetyEquipment.join(", ")}\n\n'
-                        '${sdb.protectiveMeasures}',
+              BAProtectiveMeasuresSection(
+                protectiveMeasures: sdb.protectiveMeasures.isEmpty
+                    ? '[Schutzmaßnahmen werden hier angezeigt]'
+                    : sdb.protectiveMeasures,
+                safetyEquipment: sdb.safetyEquipment,
               ),
 
               // Section 5: Verhalten im Gefahrfall
-              _PlaceholderSection(
-                title: 'Verhalten im Gefahrfall (Unfalltelefon: ${sdb.emergencyPhoneReference})',
-                backgroundColor: baOrange,
-                textColor: baTextLight,
-                headerOnly: true,
-              ),
-              _PlaceholderSection(
-                title: '',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: sdb.emergencyProcedures.isEmpty
+              BAEmergencySection(
+                emergencyProcedures: sdb.emergencyProcedures.isEmpty
                     ? '[Notfallmaßnahmen werden hier angezeigt]'
                     : sdb.emergencyProcedures,
-                showBorder: false,
+                emergencyPhoneReference: sdb.emergencyPhoneReference,
               ),
 
               // Section 6: Erste Hilfe
-              _PlaceholderSection(
-                title: 'Erste Hilfe (Ersthelfer: ${sdb.firstAiderReference})',
-                backgroundColor: baOrange,
-                textColor: baTextLight,
-                headerOnly: true,
-              ),
-              _PlaceholderSection(
-                title: '',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: _formatFirstAid(sdb.firstAid),
-                showBorder: false,
+              BAFirstAidSection(
+                firstAid: sdb.firstAid,
+                firstAiderReference: sdb.firstAiderReference,
               ),
 
-              // Section 7: Sachgerechte Entsorgung
-              _PlaceholderSection(
-                title: 'Sachgerechte Entsorgung',
-                backgroundColor: baOrange,
-                textColor: baTextLight,
-                headerOnly: true,
-              ),
-              _PlaceholderSection(
-                title: '',
-                backgroundColor: baContentBg,
-                textColor: baTextDark,
-                content: sdb.disposal.isEmpty
+              // Section 7: Sachgerechte Entsorgung (includes integrated footer)
+              BADisposalSection(
+                disposal: sdb.disposal.isEmpty
                     ? '[Entsorgungshinweise werden hier angezeigt]'
-                    : '${sdb.disposal}\n\n'
-                        'Verantwortlich: ${sdb.responsiblePerson.isEmpty ? "_______________" : sdb.responsiblePerson}',
-                showBorder: false,
+                    : sdb.disposal,
+                responsiblePerson: sdb.responsiblePerson,
               ),
             ],
           ),
         ),
-      ),
-    );
-  }
-
-  /// Formats first aid instructions into readable sections
-  String _formatFirstAid(Map<String, String> firstAid) {
-    final buffer = StringBuffer();
-
-    if (firstAid['hautkontakt']?.isNotEmpty ?? false) {
-      buffer.writeln('Nach Hautkontakt:');
-      buffer.writeln(firstAid['hautkontakt']);
-      buffer.writeln();
-    }
-
-    if (firstAid['augenkontakt']?.isNotEmpty ?? false) {
-      buffer.writeln('Nach Augenkontakt:');
-      buffer.writeln(firstAid['augenkontakt']);
-      buffer.writeln();
-    }
-
-    if (firstAid['verschlucken']?.isNotEmpty ?? false) {
-      buffer.writeln('Nach Verschlucken:');
-      buffer.writeln(firstAid['verschlucken']);
-      buffer.writeln();
-    }
-
-    if (firstAid['einatmen']?.isNotEmpty ?? false) {
-      buffer.writeln('Nach Einatmen:');
-      buffer.writeln(firstAid['einatmen']);
-    }
-
-    return buffer.toString().trim();
-  }
-}
-
-/// Placeholder section widget for Phase 3
-/// Will be replaced with proper widgets in Phase 4
-class _PlaceholderSection extends StatelessWidget {
-  final String title;
-  final Color backgroundColor;
-  final Color textColor;
-  final String? content;
-  final bool headerOnly;
-  final bool showBorder;
-
-  const _PlaceholderSection({
-    required this.title,
-    required this.backgroundColor,
-    required this.textColor,
-    this.content,
-    this.headerOnly = false,
-    this.showBorder = true,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: backgroundColor,
-        border: showBorder
-            ? Border.all(color: baBorder, width: 2)
-            : Border(
-                top: BorderSide(color: baBorder, width: 2),
-                left: BorderSide(color: baBorder, width: 2),
-                right: BorderSide(color: baBorder, width: 2),
-                bottom: BorderSide(color: baBorder, width: 2),
-              ),
-      ),
-      padding: const EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          if (title.isNotEmpty)
-            Text(
-              title,
-              style: TextStyle(
-                fontSize: headerOnly ? 16 : 18,
-                fontWeight: FontWeight.bold,
-                color: textColor,
-              ),
-            ),
-          if (content != null && !headerOnly) ...[
-            const SizedBox(height: 12),
-            Text(
-              content!,
-              style: TextStyle(
-                fontSize: 14,
-                color: textColor,
-                height: 1.5,
-              ),
-            ),
-          ],
-        ],
       ),
     );
   }
