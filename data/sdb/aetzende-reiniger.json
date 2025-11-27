@@ -1,0 +1,24 @@
+{
+  "id": "aetzende-reiniger",
+  "document_number": "000 Muster",
+  "document_date": "01.01.2015",
+  "company_name": "Betrieb: Werkstatt, Produktion, Wasseraufbereitung",
+  "workplace": "",
+  "name": "Ätzende Reiniger",
+  "hazard_category": "Ätzend",
+  "pictograms": ["ghs05"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing"],
+  "hazards_description": "Heftiges Erhitzen starker saurer und alkalischer Reiniger, Reiniger in konzentrierter Form und Reaktion von Säuren mit Laugen können zum Sieden führen und Verbrühungen, Verätzungen an Haut und Augen verursachen. Spritzer und Dämpfe können zu Augenschäden sowie Verätzungen an Haut und Schleimhäuten führen. Dämpfe reizen die Atemwege. Die Produkte können unverträglich sein mit anderen Reinigungs- und Desinfektionsmitteln und zur Gasentwicklung führen.",
+  "protective_measures": "Reinigungsplan beachten und Gebrauchsanweisung der Hersteller befolgen. Nur erforderliche Mengen am Arbeitsplatz bereithalten. Behälter nach Entnahme wieder verschließen. Spritzer vermeiden. Reinigerkonzentrate nicht mischen. Mittel genau dosieren und nur die erforderliche Menge zubereiten. Bei Arbeiten mit Spritzgefahr oder bei Zubereitung von Reinigerkonzentraten Schutzbrille, Schutzhandschuhe und Schutzkleidung tragen.",
+  "emergency_procedures": "Bei Verschütten sofort mit saugfähigem, unbrennbarem Material aufnehmen und in geeigneten, verschließbaren Behältern sammeln. Kontaminierte Flächen mehrmals nachwischen. Nicht in die Kanalisation gelangen lassen. Für ausreichende Lüftung sorgen. Informationen für Löschmittel und Fluchtwegsplan siehe Aushang.",
+  "emergency_phone_reference": "siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "sofort zehn Minuten gründlich unter fließendem Wasser abspülen, getränkte Kleidung zuvor ausziehen. Arzt konsultieren.",
+    "augenkontakt": "sofort bei offenem Lidspalt und zum äußeren Lidspalt hin zehn Minuten unter fließendem Wasser spülen. Augendusche bzw. Augenspülflasche verwenden. Augenarzt konsultieren!",
+    "verschlucken": "sofort Mund mit Wasser ausspülen, Wasser in kleinen Schlucken trinken lassen, Erbrechen nicht anregen. Arzt konsultieren.",
+    "einatmen": "Frischluft, Arzt konsultieren."
+  },
+  "first_aider_reference": "siehe Aushang",
+  "disposal": "Abfälle in gekennzeichneten beständigen Behältern (...........) sammeln; Abfallbehälter und leere Behälter geschlossen halten; regelmäßig aus dem Arbeitsbereich entfernen. Abfälle nicht vermischen!",
+  "responsible_person": ""
+}
