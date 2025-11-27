@@ -1,0 +1,24 @@
+{
+  "id": "test-product",
+  "document_number": "001 Test",
+  "document_date": "27.11.2025",
+  "company_name": "Test Firma GmbH",
+  "workplace": "Labor",
+  "name": "Test Produkt",
+  "hazard_category": "Testsubstanz",
+  "pictograms": ["ghs05"],
+  "safety_equipment": ["goggles", "gloves"],
+  "hazards_description": "Dies ist ein Test-Produkt für die Entwicklung. Keine echten Gefahren.",
+  "protective_measures": "Schutzbrille und Handschuhe tragen während der Testphase.",
+  "emergency_procedures": "Im Notfall den Administrator kontaktieren.",
+  "emergency_phone_reference": "siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Mit Wasser abspülen",
+    "augenkontakt": "Augen gründlich spülen",
+    "verschlucken": "Arzt konsultieren",
+    "einatmen": "An die frische Luft gehen"
+  },
+  "first_aider_reference": "siehe Aushang",
+  "disposal": "Als Test-Daten können diese gelöscht werden.",
+  "responsible_person": "Test Administrator"
+}
