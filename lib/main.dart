@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'screens/home_screen.dart';
+import 'screens/betriebsanweisung_screen.dart';
+import 'theme/ba_colors.dart';
 
 void main() {
   runApp(const BetriebsanweisungenApp());
@@ -12,13 +15,7 @@ class BetriebsanweisungenApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'Betriebsanweisungen',
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFFFF6B00),
-          primary: const Color(0xFFFF6B00), // Explicitly set primary to exact orange
-        ),
-      ),
+      theme: getBAThemeData(), // Use the legal template theme
       routerConfig: _router,
     );
   }
@@ -32,7 +29,7 @@ final _router = GoRouter(
       path: '/',
       pageBuilder: (context, state) => CustomTransitionPage(
         key: state.pageKey,
-        child: const HomePage(),
+        child: const HomeScreen(), // Use actual HomeScreen from screens/
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           // Fade transition - standard for web, works smoothly in both directions
           return FadeTransition(
@@ -48,7 +45,7 @@ final _router = GoRouter(
         final productId = state.pathParameters['productId'] ?? '';
         return CustomTransitionPage(
           key: state.pageKey,
-          child: ProductDetailPage(productId: productId),
+          child: BetriebsanweisungScreen(productId: productId),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             // Fade transition - standard for web, works smoothly in both directions
             return FadeTransition(
@@ -62,72 +59,3 @@ final _router = GoRouter(
   ],
 );
 
-// Placeholder home page
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Betriebsanweisungen'),
-        backgroundColor: Theme.of(context).colorScheme.primary,
-        foregroundColor: Theme.of(context).colorScheme.onPrimary,
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Betriebsanweisungen Generator',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                context.go('/ba/test');
-              },
-              child: const Text('Test Navigation'),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// Placeholder product detail page
-class ProductDetailPage extends StatelessWidget {
-  final String productId;
-
-  const ProductDetailPage({super.key, required this.productId});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Product: $productId'),
-        backgroundColor: Theme.of(context).colorScheme.primary,
-        foregroundColor: Theme.of(context).colorScheme.onPrimary,
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Product ID: $productId',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                context.go('/');
-              },
-              child: const Text('Back to Home'),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
