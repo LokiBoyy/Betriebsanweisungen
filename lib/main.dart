@@ -16,6 +16,7 @@ class BetriebsanweisungenApp extends StatelessWidget {
     return MaterialApp.router(
       title: 'Betriebsanweisungen',
       theme: getBAThemeData(), // Use the legal template theme
+      debugShowCheckedModeBanner: false,
       routerConfig: _router,
     );
   }
@@ -32,10 +33,7 @@ final _router = GoRouter(
         child: const HomeScreen(), // Use actual HomeScreen from screens/
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           // Fade transition - standard for web, works smoothly in both directions
-          return FadeTransition(
-            opacity: animation,
-            child: child,
-          );
+          return FadeTransition(opacity: animation, child: child);
         },
       ),
     ),
@@ -48,14 +46,10 @@ final _router = GoRouter(
           child: BetriebsanweisungScreen(productId: productId),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             // Fade transition - standard for web, works smoothly in both directions
-            return FadeTransition(
-              opacity: animation,
-              child: child,
-            );
+            return FadeTransition(opacity: animation, child: child);
           },
         );
       },
     ),
   ],
 );
-

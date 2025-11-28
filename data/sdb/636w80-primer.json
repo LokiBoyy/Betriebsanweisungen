@@ -1,0 +1,24 @@
+{
+  "id": "636w80-primer",
+  "document_number": "BA-004",
+  "document_date": "03/22/2018",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Werkstatt / Klebebereich",
+  "name": "636W80 - Primer",
+  "hazard_category": "Highly flammable liquid, eye irritant, narcotic effects",
+  "pictograms": ["ghs02", "ghs07"],
+  "safety_equipment": ["goggles", "gloves", "respiratory"],
+  "hazards_description": "Highly flammable liquid and vapor. Causes serious eye irritation. May cause drowsiness or dizziness due to high content of butanone (MEK, 70–85 %). Vapors are heavier than air and can form explosive mixtures with air even at room temperature.",
+  "protective_measures": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. Do not smoke. Avoid breathing vapors and avoid contact with skin and eyes. Work in a well-ventilated area or under a fume hood and use only explosion-proof equipment with measures against static discharge. Wear suitable protective gloves, tightly sealed goggles and, if exposure limits may be exceeded, an appropriate respirator with organic vapor filter (type A).",
+  "emergency_procedures": "In case of accidental release, keep away from ignition sources and ensure good ventilation. Avoid breathing vapors and contact with the liquid; keep unprotected persons away. Contain the spill and absorb with sand, inert absorbent or universal binder, then place in suitable closed containers for disposal. Do not allow product or contaminated extinguishing water to enter drains, soil or waterways.",
+  "emergency_phone_reference": "CHEMTREC +1 (800) 424-9300 (external); internal Notruf siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Remove contaminated clothing. Wash skin immediately with plenty of water and soap. Seek medical attention if irritation or other complaints persist.",
+    "augenkontakt": "Immediately rinse eyes with plenty of running water for 10–15 minutes while keeping eyelids open and remove contact lenses if present and easy to do; continue rinsing and consult an ophthalmologist.",
+    "verschlucken": "Rinse mouth with water and drink plenty of water. Do not induce vomiting. Ensure fresh air and seek medical attention immediately, especially after ingestion of larger quantities.",
+    "einatmen": "Bring the affected person into fresh air, keep warm and at rest. If breathing is irregular or stops, provide artificial respiration and oxygen if needed. Seek medical attention immediately."
+  },
+  "first_aider_reference": "Betriebliche Ersthelfer / Giftinformationszentrum siehe Aushang",
+  "disposal": "Dispose of product and absorbents as hazardous waste by incineration or via an authorized hazardous waste collection point in accordance with local, state and federal regulations. Do not discharge into drains or the environment. Contaminated packaging should be handled like the product and incinerated or disposed of as hazardous waste.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}
