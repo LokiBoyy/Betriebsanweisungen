@@ -5,18 +5,18 @@ import '../utils/pictogram_paths.dart';
 /// Product identification section for Betriebsanweisung.
 ///
 /// Displays:
-/// - GHS hazard pictogram (120×120px)
-/// - Hazard category label below pictogram
+/// - GHS hazard pictograms (120×120px each)
+/// - Hazard category label below pictograms
 /// - Large product name (36px bold)
 ///
-/// Layout: Two-column (20% pictogram / 80% name) on desktop,
+/// Layout: Two-column (30% pictograms / 70% name) on desktop,
 /// stacks vertically on mobile (<600px).
 class BAProductSection extends StatelessWidget {
   /// Product name (e.g., "Ätzende Reiniger")
   final String productName;
 
-  /// GHS pictogram code (e.g., "ghs05" for corrosive)
-  final String pictogramCode;
+  /// GHS pictogram codes (e.g., ["ghs05", "ghs07", "ghs09"])
+  final List<String> pictogramCodes;
 
   /// Hazard category label (e.g., "Ätzend", "Entzündlich")
   final String hazardCategory;
@@ -24,7 +24,7 @@ class BAProductSection extends StatelessWidget {
   const BAProductSection({
     super.key,
     required this.productName,
-    required this.pictogramCode,
+    required this.pictogramCodes,
     required this.hazardCategory,
   });
 
@@ -49,20 +49,24 @@ class BAProductSection extends StatelessWidget {
     );
   }
 
-  /// Desktop layout: Row with pictogram on left, name on right
+  /// Desktop layout: Row with pictograms on left, name on right
   Widget _buildDesktopLayout(TextTheme textTheme) {
+    // Adjust flex based on number of pictograms
+    final pictogramFlex = pictogramCodes.length > 1 ? 2 : 1;
+    final nameFlex = pictogramCodes.length > 1 ? 3 : 4;
+
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        // Left: Pictogram (flex: 1, ~20%)
+        // Left: Pictograms (flex: 1-2, ~20-40%)
         Expanded(
-          flex: 1,
+          flex: pictogramFlex,
           child: _buildPictogramColumn(textTheme),
         ),
         const SizedBox(width: 16),
-        // Right: Product name (flex: 4, ~80%)
+        // Right: Product name (flex: 3-4, ~60-80%)
         Expanded(
-          flex: 4,
+          flex: nameFlex,
           child: _buildProductName(textTheme),
         ),
       ],
@@ -81,13 +85,13 @@ class BAProductSection extends StatelessWidget {
     );
   }
 
-  /// Builds the pictogram with label below it
+  /// Builds the pictograms with label below them
   Widget _buildPictogramColumn(TextTheme textTheme) {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        // GHS Pictogram
-        _buildPictogram(),
+        // GHS Pictograms in a row
+        _buildPictograms(),
         const SizedBox(height: 8),
         // Category label
         Text(
@@ -101,26 +105,48 @@ class BAProductSection extends StatelessWidget {
     );
   }
 
-  /// Builds the GHS pictogram image with error handling
-  Widget _buildPictogram() {
-    final imagePath = PictogramPaths.getGHSPath(pictogramCode);
+  /// Builds all GHS pictogram images with error handling
+  Widget _buildPictograms() {
+    if (pictogramCodes.isEmpty) {
+      return const SizedBox.shrink();
+    }
+
+    // If only one pictogram, display it at full size
+    if (pictogramCodes.length == 1) {
+      return _buildSinglePictogram(pictogramCodes.first, 120);
+    }
+
+    // For multiple pictograms, display them in a horizontal wrap
+    return Wrap(
+      spacing: 12,
+      runSpacing: 12,
+      alignment: WrapAlignment.center,
+      children: pictogramCodes.map((code) {
+        return _buildSinglePictogram(code, 90);
+      }).toList(),
+    );
+  }
+
+  /// Builds a single pictogram with consistent styling
+  Widget _buildSinglePictogram(String code, double size) {
+    final imagePath = PictogramPaths.getGHSPath(code);
 
     return Image.asset(
       imagePath,
-      width: 120,
-      height: 120,
+      width: size,
+      height: size,
       errorBuilder: (context, error, stackTrace) {
         // Fallback: Gray placeholder with warning icon
         return Container(
-          width: 120,
-          height: 120,
+          width: size,
+          height: size,
           decoration: BoxDecoration(
             color: Colors.grey[300],
             border: Border.all(color: Colors.grey[400]!, width: 2),
           ),
-          child: const Icon(
+          child: Icon(
             Icons.warning_outlined,
-            size: 60,
+            size: size * 0.5,
             color: Colors.grey,
           ),
         );

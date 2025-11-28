@@ -6,13 +6,13 @@
 /// Example:
 /// ```dart
 /// final path = PictogramPaths.getGHSPath('ghs05');
-/// // Returns: 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_05_gr.gif'
+/// // Returns: 'pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_05_gr.gif'
 /// ```
 class PictogramPaths {
   /// Converts a GHS pictogram code to its file path.
   ///
   /// Input: 'ghs05' (lowercase, from JSON)
-  /// Output: 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_05_gr.gif'
+  /// Output: 'pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_05_gr.gif'
   ///
   /// All GHS pictograms are .gif files with format: GHS_##_gr.gif
   /// Returns empty string if code is invalid.
@@ -25,7 +25,7 @@ class PictogramPaths {
       if (number < 1 || number > 9) return '';
 
       final paddedNumber = number.toString().padLeft(2, '0');
-      return 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_${paddedNumber}_gr.gif';
+      return 'pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_${paddedNumber}_gr.gif';
     } catch (e) {
       return '';
     }
@@ -51,13 +51,13 @@ class PictogramPaths {
   /// Converts a safety equipment code to its file path.
   ///
   /// Input: 'goggles' (from JSON)
-  /// Output: 'assets/pictograms/Gebotszeichen/M004_Augenschutz-benutzen.jpg'
+  /// Output: 'pictograms/Gebotszeichen/M004_Augenschutz-benutzen.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getSafetyEquipmentPath(String code) {
     final filename = _safetyEquipment[code];
     if (filename == null) return '';
-    return 'assets/pictograms/Gebotszeichen/$filename';
+    return 'pictograms/Gebotszeichen/$filename';
   }
 
   /// Mapping of warning sign codes to their actual filenames.
@@ -75,13 +75,13 @@ class PictogramPaths {
   /// Converts a warning sign code to its file path.
   ///
   /// Input: 'warning-general' (from JSON)
-  /// Output: 'assets/pictograms/Warnzeichen/W001-Allgemeines-Warnzeichen.jpg'
+  /// Output: 'pictograms/Warnzeichen/W001-Allgemeines-Warnzeichen.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getWarningPath(String code) {
     final filename = _warnings[code];
     if (filename == null) return '';
-    return 'assets/pictograms/Warnzeichen/$filename';
+    return 'pictograms/Warnzeichen/$filename';
   }
 
   /// Mapping of emergency sign codes to their actual filenames.
@@ -98,13 +98,13 @@ class PictogramPaths {
   /// Converts an emergency sign code to its file path.
   ///
   /// Input: 'first-aid' (from JSON)
-  /// Output: 'assets/pictograms/Rettungszeichen/E003-Erste-Hilfe.jpg'
+  /// Output: 'pictograms/Rettungszeichen/E003-Erste-Hilfe.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getEmergencyPath(String code) {
     final filename = _emergency[code];
     if (filename == null) return '';
-    return 'assets/pictograms/Rettungszeichen/$filename';
+    return 'pictograms/Rettungszeichen/$filename';
   }
 
   /// Checks if a safety equipment code is valid.

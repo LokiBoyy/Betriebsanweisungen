@@ -147,9 +147,9 @@ class _BetriebsanweisungContent extends StatelessWidget {
               // Section 2: Gefahrstoffbezeichnung (Product Section)
               BAProductSection(
                 productName: sdb.name,
-                pictogramCode: sdb.pictograms.isNotEmpty
-                    ? sdb.pictograms.first
-                    : 'ghs07', // Default to general hazard if no pictogram
+                pictogramCodes: sdb.pictograms.isNotEmpty
+                    ? sdb.pictograms
+                    : ['ghs07'], // Default to general hazard if no pictograms
                 hazardCategory: sdb.hazardCategory,
               ),
 

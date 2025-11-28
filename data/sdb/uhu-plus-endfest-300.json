@@ -1,0 +1,24 @@
+{
+  "id": "uhu-plus-endfest-300",
+  "document_number": "BA-001",
+  "document_date": "20.05.2023",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Klebearbeiten / Werkstatt / Labor",
+  "name": "UHU plus endfest 300 (Binder + Härter)",
+  "hazard_category": "Epoxidharz-Klebstoff, umweltgefährlich, ätzend",
+  "pictograms": ["ghs05", "ghs07", "ghs09"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+  "hazards_description": "Binder: haut- und augenreizend, sensibilisierend, giftig für Wasserorganismen mit langfristiger Wirkung. Härter: verursacht schwere Verätzungen der Haut und schwere Augenschäden, kann allergische Hautreaktionen verursachen.",
+  "protective_measures": "Für gute Belüftung sorgen und Aerosolbildung vermeiden. Direkten Kontakt mit Haut und Augen vermeiden, geeignete Schutzhandschuhe, Schutzbrille und gegebenenfalls Schutzkleidung tragen. Gase/Dämpfe/Aerosole nicht einatmen; beim Umfüllen möglichst Absaugung nutzen. Verschüttetes Material mit geeignetem Bindemittel aufnehmen und ordnungsgemäß entsorgen, Eindringen in Kanalisation und Gewässer verhindern.",
+  "emergency_procedures": "Bei Freisetzung Bereich räumen, Lüftung sicherstellen und Kontakt mit Haut, Augen und Kleidung vermeiden. Verschüttetes Produkt mit inertem Bindemittel aufnehmen und in gekennzeichneten Behältern sammeln. Bei Eindringen in Kanalisation oder Gewässer zuständige Behörden informieren. Brandbekämpfung nach Umgebungslage; bei Härter Bildung giftiger Gase möglich, daher geeigneten Atemschutz verwenden.",
+  "emergency_phone_reference": "Interne Notrufnummer / 112; externe Giftnotrufnummer gemäß Aushang",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung sofort entfernen. Haut sofort mit viel Wasser und Seife waschen und gut nachspülen; bei anhaltender Reizung oder Verätzungen ärztliche Behandlung veranlassen.",
+    "augenkontakt": "Augen bei geöffnetem Lidspalt mehrere Minuten mit viel Wasser spülen, Kontaktlinsen wenn möglich entfernen und weiter spülen. Unverzüglich Augenarzt aufsuchen, insbesondere beim Härter (Verätzungsgefahr).",
+    "verschlucken": "Mund ausspülen, kein Erbrechen herbeiführen. Betroffene Person ruhig halten, reichlich Wasser nachtrinken lassen und sofort ärztliche Hilfe bzw. Giftnotruf kontaktieren.",
+    "einatmen": "Betroffene Person an die frische Luft bringen und für ungehinderte Atmung sorgen. Bei Beschwerden oder Unwohlsein ärztliche Hilfe in Anspruch nehmen; bei Bewusstlosigkeit stabile Seitenlage und Notruf."
+  },
+  "first_aider_reference": "Betriebliche Ersthelfer siehe Aushang",
+  "disposal": "Produktreste und kontaminierte Absorptionsmittel nicht über den Hausmüll oder die Kanalisation entsorgen, sondern als gefährlichen Abfall gemäß den behördlichen Vorschriften entsorgen. Verpackungen restentleert dem Dualen System (Grüner Punkt) zuführen oder gemäß lokalen Vorgaben entsorgen.",
+  "responsible_person": "Verantwortliche Führungskraft / Gefahrstoffbeauftragter"
+}

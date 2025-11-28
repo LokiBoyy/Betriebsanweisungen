@@ -65,7 +65,13 @@ flutter:
 
   # Assets for the application
   assets:
-    - assets/pictograms/
+    - assets/pictograms/Kennzeichnung-von-Gefahrstoffen/
+    - assets/pictograms/Gebotszeichen/
+    - assets/pictograms/Warnzeichen/
+    - assets/pictograms/Rettungszeichen/
+    - assets/pictograms/Verbotszeichen/
+    - assets/pictograms/Brandschutz/
+    - assets/pictograms/Piktogramme-Leitern/
     - data/sdb/
 
   # An image asset can refer to one or more resolution-specific "variants", see
