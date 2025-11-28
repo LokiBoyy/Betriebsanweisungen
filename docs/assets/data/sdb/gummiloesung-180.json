@@ -1,0 +1,24 @@
+{
+"id": "gummiloesung-180",
+"document_number": "BA-016",
+"document_date": "27.01.2021",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Klebstoffanwendung Gummilösung",
+"name": "180 Gummilösung (lösemittelhaltiger Klebstoff)",
+"hazard_category": "Highly flammable solvent-based rubber adhesive; skin and eye irritant, narcotic effects, environmentally hazardous to aquatic life with long lasting effects",
+"pictograms": ["ghs02", "ghs07", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as flammable liquid category 2 with easily flammable liquid and vapour (Flam. Liq. 2, H225) and lower/upper explosion limits around 1–11.5 vol% with a flash point of about -18 °C.[attached_file:file:7] Causes skin irritation and serious eye irritation (Skin Irrit. 2, H315; Eye Irrit. 2, H319), may cause drowsiness and dizziness (STOT SE 3, H336), and is toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411); contains C6–C7 isoalkane hydrocarbons with ≤5% n-hexane, ethyl acetate, xylene and small amounts of 2,6-di-tert-butyl-p-cresol.[attached_file:file:7]",
+"protective_measures": "Avoid contact with skin, eyes and clothing and avoid inhalation of vapours or grinding dusts; ensure good general and local exhaust ventilation in the work area.[attached_file:file:7] Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke, do not use pressure to empty containers, store only in tightly closed upright containers and keep between 10 °C and 30 °C.[attached_file:file:7] Wear suitable chemical-resistant protective gloves (e.g. nitrile rubber approx. 0.4 mm, breakthrough time up to 480 minutes), safety goggles with side protection, and appropriate chemical protective clothing; use respiratory protection if ventilation is insufficient.[attached_file:file:7]",
+"emergency_procedures": "In case of accidental release, ventilate the affected area, avoid inhalation of vapours and prevent product from entering drains, surface water or soil; inform authorities if water bodies or sewers are contaminated.[attached_file:file:7] Contain spilled material with non-combustible absorbents such as sand, earth, vermiculite or diatomaceous earth and collect it in suitable, labelled containers for disposal according to local regulations; carry out final cleaning with suitable cleaning agents, not solvents.[attached_file:file:7] In case of fire, use alcohol-resistant foam, CO₂, dry powder or water spray; avoid full water jet, cool closed containers near the fire with water, and prevent contaminated extinguishing water from entering sewers or watercourses.[attached_file:file:7]",
+"emergency_phone_reference": "Notrufnummer Grimme (werktags): +49 (221) 630799-17; betriebliche Notrufnummer siehe Aushang.[attached_file:file:7]",
+"first_aid": {
+"hautkontakt": "Beschmutzte, getränkte Kleidung sofort ausziehen und die Haut sofort mit viel Wasser und Seife waschen; bei anhaltender Reizung oder Beschwerden ärztlichen Rat einholen.[attached_file:file:7]",
+"augenkontakt": "Augen einige Minuten lang behutsam mit Wasser spülen; vorhandene Kontaktlinsen nach Möglichkeit entfernen und weiter spülen; anschließend umgehend ärztlichen Rat einholen.[attached_file:file:7]",
+"verschlucken": "Mund mit Wasser ausspülen (nur wenn die betroffene Person bei Bewusstsein ist), betroffene Person ruhig halten und sofort ärztlichen Rat einholen; kein Erbrechen herbeiführen, wegen möglicher Lösemittelaspiration.[attached_file:file:7]",
+"einatmen": "Betroffene Person an die frische Luft bringen, warm und ruhig lagern; bei unregelmäßiger Atmung oder Atemstillstand umgehend künstliche Beatmung einleiten und medizinische Hilfe veranlassen.[attached_file:file:7]"
+},
+"first_aider_reference": "Ersthelfer sollen auf Selbstschutz achten und geeignete persönliche Schutzausrüstung tragen; bei Symptomen oder im Zweifel immer ärztlichen Rat einholen, insbesondere bei Anzeichen von Lösemittelwirkung (Schwindel, Kopfschmerz, Benommenheit). [attached_file:file:7]",
+"disposal": "Do not allow product or residues to enter drains or the environment; dispose of waste and containers safely according to Directive 2008/98/EC and local regulations.[attached_file:file:7] Suggested waste code: 08 04 09 (waste adhesives and sealants containing organic solvents or other hazardous substances); non-contaminated, completely emptied packaging can be recycled, whereas not properly emptied containers must be treated as hazardous waste.[attached_file:file:7]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

@@ -1,0 +1,24 @@
+{
+"id": "dentafloc-tabs",
+"document_number": "BA-010",
+"document_date": "13.04.2015",
+"company_name": "Sanimotion GmbH",
+"workplace": "Zahnarztpraxis / Gipsabscheider / Aufbereitung",
+"name": "Dentafloc Tabs",
+"hazard_category": "Corrosive solid containing thymol and benzoic acid; causes severe skin burns and serious eye damage; harmful to aquatic organisms with long-lasting effects",
+"pictograms": ["ghs05"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing"],
+"hazards_description": "Dentafloc Tabs are classified as corrosive to skin and eyes (Skin Corr. 1B, H314 / Eye Dam. 1, H318) and harmful to aquatic organisms with long-lasting effects (Aquatic Chronic 3, H412).",
+"protective_measures": "Avoid any contact with skin and eyes and do not ingest the tablets or their solutions; keep away from food and beverages and wash hands carefully after handling. Use the product only in its intended concentration in the plaster separator, store it cool and dry in the closed original container, and ensure that contaminated clothing is removed immediately. Wear suitable chemical-resistant protective gloves (e.g. butyl rubber), tightly fitting safety goggles and appropriate protective work clothing when handling tablets or concentrated solutions.",
+"emergency_procedures": "In case of accidental release, wear protective equipment, keep unprotected persons away, and avoid discharge into drains or surface waters; inform authorities if the product enters water or sewer systems. Mechanically collect spilled tablets or residues, wash remaining contamination with water, and transfer waste into suitable, labelled containers for recovery or disposal according to regulations. In case of fire in the vicinity, select extinguishing media according to surroundings and use independent respiratory protection in the danger area; no specific explosive properties are known for the product itself.",
+"emergency_phone_reference": "Giftnotrufnummer laut betrieblichem Aushang; Produkt wird der Giftnotrufzentrale gemeldet, sobald es im Handel ist.",
+"first_aid": {
+"hautkontakt": "Kontaminierte Kleidung sofort ausziehen und die betroffenen Hautpartien unverzüglich mit viel Wasser und Seife waschen sowie gründlich nachspülen; bei anhaltender Reizung oder Verätzungserscheinungen ärztliche Behandlung veranlassen.",
+"augenkontakt": "Augen bei geöffnetem Lidspalt mehrere Minuten lang unter fließendem Wasser spülen, dabei Kontaktlinsen nach Möglichkeit entfernen; anschließend umgehend Augenarzt konsultieren.",
+"verschlucken": "Mund gründlich mit Wasser ausspülen und anschließend reichlich Wasser nachtrinken, die betroffene Person möglichst nicht zum Erbrechen bringen und umgehend ärztliche Behandlung veranlassen.",
+"einatmen": "Betroffene Person an die frische Luft bringen und für ungehinderte Atmung sorgen; bei Beschwerden oder Anzeichen von Reizung medizinische Beobachtung und gegebenenfalls ärztliche Hilfe veranlassen."
+},
+"first_aider_reference": "Nur eingewiesene Ersthelfer mit geeigneter persönlicher Schutzausrüstung; bei ausgeprägten Verätzungen immer umgehend Notarzt hinzuziehen.",
+"disposal": "Produktreste und kontaminierte Adsorptionsmittel dürfen nicht mit dem Hausmüll entsorgt werden und sind als gefährlicher Abfall gemäß behördlichen Vorschriften zu beseitigen. Ungereinigte Verpackungen sind entsprechend den lokalen Bestimmungen zu entsorgen; eine Entsorgung in die Kanalisation oder in Gewässer ist zu vermeiden.",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Leitung der Zahnarztpraxis"
+}

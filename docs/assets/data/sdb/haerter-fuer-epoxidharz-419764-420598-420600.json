@@ -1,0 +1,24 @@
+{
+"id": "haerter-fuer-epoxidharz-419764-420598-420600",
+"document_number": "BA-017",
+"document_date": "14.02.2024",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Epoxidharz-Härtung (Härterkomponente)",
+"name": "Härter für Epoxidharz (Artikel 419764, 420598, 420600)",
+"hazard_category": "Corrosive epoxy hardener based on polyamines; harmful if swallowed, causes severe skin burns and eye damage, skin sensitiser, very toxic to aquatic life with long lasting effects",
+"pictograms": ["ghs05", "ghs07", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as harmful if swallowed (Acute Tox. 4, H302), causing severe skin burns and eye damage (Skin Corr. 1B, H314; Eye Dam. 1, H318), and as skin sensitiser that can cause allergic skin reactions (Skin Sens. 1, H317).[attached_file:file:8] Very toxic to aquatic life with long lasting effects (Aquatic Acute 1, H400; Aquatic Chronic 1, H410); contains polyethylenepolyamine pentaethylenehexamine fraction, isophoronediamine (3-aminomethyl-3,5,5-trimethylcyclohexylamine) and polyethylenepolyamine-HEPA, which are strongly corrosive amines and hazardous to aquatic organisms.[attached_file:file:8]",
+"protective_measures": "Use only in well-ventilated areas with effective local exhaust; avoid inhalation of vapours or aerosols and any contact with skin, eyes and clothing.[attached_file:file:8] Keep containers tightly closed, store only in original containers in a cool, dry, well-ventilated place, separated from acids, oxidising agents and foodstuffs; prevent penetration into soil.[attached_file:file:8] Wear suitable chemical-resistant gloves (e.g. butyl rubber; for long contact also nitrile or chloroprene gloves as specified), tight-fitting safety goggles or face shield, and chemical protective clothing; remove contaminated clothing immediately and wash skin thoroughly after handling.[attached_file:file:8]",
+"emergency_procedures": "In case of accidental release, keep unprotected persons away, provide sufficient ventilation and use suitable respiratory protection if vapours or aerosols are present.[attached_file:file:8] Prevent the product from entering drains, surface or groundwater or soil; absorb spilled material with sand, diatomaceous earth, acid binder, universal binder or sawdust, neutralise if possible and transfer to suitable labelled containers for disposal.[attached_file:file:8] Contaminated material and wash water must be disposed of according to official regulations; in case of fire, toxic and corrosive gases (e.g. carbon monoxide, nitrogen oxides) may form, so full protective suit and self-contained breathing apparatus are required.[attached_file:file:8]",
+"emergency_phone_reference": "Giftnotdienst der Charité Universitätsmedizin Berlin, 24h: +49 (30) 30 68 67 00; betriebliche Notrufnummer siehe Aushang.[attached_file:file:8]",
+"first_aid": {
+"hautkontakt": "Mit Produkt verunreinigte Kleidung unverzüglich entfernen; betroffene Hautpartien sofort mit viel Wasser und Seife waschen und gründlich nachspülen; bei anhaltender Reizung, Verätzungserscheinungen oder allergischen Reaktionen Arzt aufsuchen.[attached_file:file:8]",
+"augenkontakt": "Augen bei geöffnetem Lidspalt mehrere Minuten unter fließendem Wasser spülen; Kontaktlinsen, falls vorhanden und leicht entfernbar, herausnehmen und weiter spülen; unverzüglich Augenarzt konsultieren.[attached_file:file:8]",
+"verschlucken": "Mund ausspülen, anschließend reichlich Wasser nachtrinken, betroffene Person an die frische Luft bringen und ruhig halten; kein Erbrechen herbeiführen; sofort Arzt bzw. Giftinformationszentrum kontaktieren, da Symptome verzögert auftreten können und ärztliche Überwachung mindestens 48 Stunden empfohlen wird.[attached_file:file:8]",
+"einatmen": "Betroffene Person an die frische Luft bringen, in stabiler Seitenlage lagern und warm halten; bei Atembeschwerden, Atemnot oder Bewusstlosigkeit sofort ärztliche Hilfe bzw. Notarzt veranlassen.[attached_file:file:8]"
+},
+"first_aider_reference": "Ersthelfer sollen geeignete persönliche Schutzausrüstung tragen; bei Verdacht auf Verätzung, Atemwegsbeteiligung oder schweren Allgemeinsymptomen ist sofort ein Arzt bzw. Notarzt hinzuzuziehen und eine engmaschige ärztliche Überwachung (mindestens 48 Stunden) zu veranlassen.[attached_file:file:8]",
+"disposal": "Do not dispose of with household waste and do not allow to enter the sewer system, surface water, groundwater or soil; waste must be treated as hazardous waste according to local and national regulations.[attached_file:file:8] Contaminated, uncleaned packaging should be optimally emptied and, after appropriate cleaning (e.g. with alcohol), supplied to recycling where possible; non-cleanable packaging must be disposed of like the product.[attached_file:file:8]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

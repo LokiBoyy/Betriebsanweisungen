@@ -1,0 +1,24 @@
+{
+"id": "epoxidharz-420597-419368",
+"document_number": "BA-012",
+"document_date": "14.02.2024",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Klebstoffverarbeitung Epoxidharz",
+"name": "Epoxidharzklebstoff (Artikel 420597, 419368)",
+"hazard_category": "Epoxy resin adhesive; causes skin and eye irritation, skin sensitisation, toxic to aquatic life with long lasting effects",
+"pictograms": ["ghs07", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing"],
+"hazards_description": "Classified as skin irritant and causing serious eye irritation (Skin Irrit. 2, H315; Eye Irrit. 2, H319), and as skin sensitiser that can cause allergic skin reactions (Skin Sens. 1, H317).[attached_file:file:3] Toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411); contains epoxy resin components such as 2,2-bis(4-(2,3-epoxy-propoxy)-phenyl)-propan and other epoxy oligomers that can trigger sensitisation, especially with repeated skin contact.[attached_file:file:3]",
+"protective_measures": "Use only in well-ventilated areas or with local exhaust; avoid inhaling vapours or aerosols and avoid contact with skin and eyes.[attached_file:file:3] Keep containers tightly closed, store cool and dry in original packaging, and keep away from food, beverages and feed; remove contaminated clothing immediately and apply preventive skin protection (protective creams) where appropriate.[attached_file:file:3] Wear suitable chemical-resistant protective gloves (e.g. butyl rubber, nitrile or chloroprene with sufficient breakthrough time), tightly fitting safety goggles and protective work clothing when handling the resin.[attached_file:file:3]",
+"emergency_procedures": "In case of accidental release, provide adequate ventilation, avoid inhalation of vapours or aerosols, and use suitable respiratory protection if ventilation is insufficient.[attached_file:file:3] Do not allow product to enter soil, drains, surface or groundwater; contain spillage with absorbent material (e.g. sand, universal binder, sawdust) and transfer to suitable labelled containers for disposal.[attached_file:file:3] Contaminated wash water and collected waste must be disposed of according to official regulations and must not be discharged into the sewer system.[attached_file:file:3]",
+"emergency_phone_reference": "Giftnotdienst der Charité Universitätsmedizin Berlin, 24h: +49 (30) 30 68 67 00; betriebliche Notrufnummer siehe Aushang.[attached_file:file:3]",
+"first_aid": {
+"hautkontakt": "Mit Produkt verunreinigte Kleidungsstücke unverzüglich entfernen; betroffene Hautpartien sofort mit viel Wasser und Seife waschen und gründlich nachspülen; bei andauernder Hautreizung oder allergischen Reaktionen Arzt aufsuchen.[attached_file:file:3]",
+"augenkontakt": "Augen bei geöffnetem Lidspalt mehrere Minuten unter fließendem Wasser spülen, dabei Kontaktlinsen möglichst entfernen; bei anhaltenden Beschwerden Augenarzt konsultieren.[attached_file:file:3]",
+"verschlucken": "Mund ausspülen und reichlich Wasser nachtrinken; bei Beschwerden oder Unsicherheit ärztlichen Rat einholen, keine größeren Mengen ohne medizinische Beurteilung aufnehmen.[attached_file:file:3]",
+"einatmen": "Betroffene Person an die frische Luft bringen und ruhig lagern; bei Atembeschwerden oder Unwohlsein sicherheitshalber Arzt aufsuchen; bei Bewusstlosigkeit stabile Seitenlage und sofort medizinische Hilfe veranlassen.[attached_file:file:3]"
+},
+"first_aider_reference": "Ersthelfer sollen geeignete persönliche Schutzausrüstung tragen; bei Verdacht auf allergische Reaktion, Atemstörungen oder anhaltende Beschwerden immer umgehend ärztliche Hilfe hinzuziehen.[attached_file:file:3]",
+"disposal": "Do not dispose of with household waste and do not allow to reach the sewer system; waste and contaminated absorbents must be handled as hazardous waste according to local and national regulations.[attached_file:file:3] Contaminated, uncleaned packaging should be optimally emptied and, after appropriate cleaning (e.g. with alcohol or acetone), supplied to recycling where possible; contaminated packaging must be treated like the product.[attached_file:file:3]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

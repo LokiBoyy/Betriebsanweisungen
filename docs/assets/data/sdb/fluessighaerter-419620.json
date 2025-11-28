@@ -1,0 +1,24 @@
+{
+"id": "fluessighaerter-419620",
+"document_number": "BA-015",
+"document_date": "15.02.2024",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Anmischen und Härten (Flüssighärter)",
+"name": "Flüssighärter (Artikelnummer 419620)",
+"hazard_category": "Organic peroxide hardener; heating may cause fire, causes serious eye irritation, skin sensitisation, very toxic to aquatic life with long lasting effects",
+"pictograms": ["ghs02", "ghs07", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as organic peroxide type E (Org. Perox. E) with the risk that heating may cause fire (H242).[attached_file:file:5] Causes serious eye irritation (Eye Irrit. 2, H319), may cause allergic skin reactions (Skin Sens. 1, H317) and is very toxic to aquatic organisms with long lasting effects (Aquatic Acute 1, H400; Aquatic Chronic 1, H410); contains dibenzoyl peroxide and 2-ethylhexyl benzoate as main hazardous components.[attached_file:file:5]",
+"protective_measures": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke and protect from direct sunlight and temperatures above 35 °C.[attached_file:file:5] Store only in the tightly closed original container, separately from reducing agents, heavy metal compounds, acids and alkalis, and do not return residual quantities to the storage container to avoid self-accelerating decomposition.[attached_file:file:5] Ensure good ventilation or local exhaust at the workplace, avoid inhalation of vapours or aerosols and any contact with skin and eyes; wear suitable chemical-resistant gloves (e.g. butyl, nitrile, FKM/Viton, neoprene), tight-fitting safety goggles and appropriate protective clothing.[attached_file:file:5]",
+"emergency_procedures": "In case of accidental release, prevent product from entering drains, surface or groundwater and notify authorities if it enters water or sewers; absorb with suitable binders such as sand, diatomaceous earth, acid binder, universal binder or sawdust and transfer to suitable containers for recovery or disposal.[attached_file:file:5] Provide adequate ventilation in the affected area and handle collected material as hazardous waste according to regulations.[attached_file:file:5] In case of fire, use CO₂, dry powder, water spray or alcohol-resistant foam; cool endangered containers with water spray and wear self-contained breathing apparatus, as toxic combustion gases such as carbon monoxide may be released.[attached_file:file:5]",
+"emergency_phone_reference": "Giftnotdienst der Charité – Universitätsmedizin Berlin, 24h: +49 (30) 30 68 67 00; betriebliche Notrufnummer siehe Aushang.[attached_file:file:5]",
+"first_aid": {
+"hautkontakt": "Kontaminierte Kleidung sofort ausziehen; betroffene Hautpartien sofort mit viel Wasser und Seife waschen und gründlich nachspülen; bei Hautreizung oder -ausschlag ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.[attached_file:file:5]",
+"augenkontakt": "Augen bei geöffnetem Lidspalt mehrere Minuten lang unter fließendem Wasser spülen; Kontaktlinsen, falls vorhanden und leicht entfernbar, herausnehmen und weiter spülen; bei anhaltender Augenreizung ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.[attached_file:file:5]",
+"verschlucken": "Mund ausspülen und reichlich Wasser nachtrinken; keine größeren Mengen ohne medizinische Beurteilung aufnehmen und sofort ärztlichen Rat einholen.[attached_file:file:5]",
+"einatmen": "Betroffene Person an die frische Luft bringen und für ungehinderte Atmung sorgen; bei Bewusstlosigkeit in stabiler Seitenlage lagern und ärztliche Hilfe veranlassen.[attached_file:file:5]"
+},
+"first_aider_reference": "Ersthelter sollen geeignete persönliche Schutzausrüstung tragen; bei ausgeprägten Beschwerden, insbesondere Augenbeteiligung, Allergiesymptomen oder Atemproblemen, immer umgehend ärztliche Hilfe bzw. Notarzt hinzuziehen.[attached_file:file:5]",
+"disposal": "Do not dispose of with household waste and do not allow to enter the sewer system; waste must be treated as hazardous waste according to the European Waste Catalogue, e.g. 16 09 03 for peroxides.[attached_file:file:5] Contaminated packaging should be optimally emptied, cleaned where possible and then recycled; non-cleanable packaging must be disposed of like the substance.[attached_file:file:5]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

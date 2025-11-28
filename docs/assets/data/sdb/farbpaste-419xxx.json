@@ -1,0 +1,24 @@
+{
+"id": "farbpaste-419xxx",
+"document_number": "BA-013",
+"document_date": "02.05.2022",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Anmischen und Einfärben von Kunststoffen",
+"name": "Farbpaste verschiedene Farben (Art.-Nr. 419XXX)",
+"hazard_category": "Coloured paste for plastics; not classified as hazardous under CLP, but contains amine-based component that may cause allergic skin reactions and may form hazardous droplets when sprayed",
+"pictograms": [],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "The mixture is not classified as hazardous according to Regulation (EC) No. 1272/2008, but contains fatty acid, tall oil, compound with oleylamine, which may cause allergic reactions (EUH208).[attached_file:file:4] When sprayed, hazardous respirable droplets may be generated and aerosol or mist should not be inhaled (EUH211); a safety data sheet is available on request (EUH210).[attached_file:file:4]",
+"protective_measures": "Design working processes to avoid inhalation of vapours or mists, and to prevent eye and skin contact; ensure adequate general and local exhaust ventilation, especially near the floor due to vapours heavier than air.[attached_file:file:4] Keep away from heat, hot surfaces, sparks and open flames; use only antistatic, non-sparking tools and implement measures against electrostatic discharge, following standard fire and explosion prevention measures.[attached_file:file:4] Wear suitable chemical-resistant protective gloves (e.g. solvent- and acid-resistant nitrile, chloroprene or butyl as specified), safety goggles/face shield and protective work clothing; change contaminated gloves immediately and avoid wearing contaminated clothing.[attached_file:file:4]",
+"emergency_procedures": "In case of accidental release, keep unprotected persons away, remove ignition sources, ensure sufficient ventilation and use appropriate personal protective equipment; note the risk of slipping due to spilled paste.[attached_file:file:4] Prevent the product from entering soil, drains or watercourses; cover drains, contain the spill with dikes or barriers, and absorb with suitable materials such as sand, diatomaceous earth, universal binder or absorbent cloths.[attached_file:file:4] Collect contaminated wash water and absorbents in suitable closed containers for disposal and ventilate the affected area.[attached_file:file:4]",
+"emergency_phone_reference": "Giftnotdienst der Charité Universitätsmedizin Berlin, 24h: +49 (30) 30 68 67 00; betriebliche Notrufnummer siehe Aushang.[attached_file:file:4]",
+"first_aid": {
+"hautkontakt": "Beschmutzte, getränkte Kleidung sofort ausziehen; betroffene Hautpartien sofort mit viel Wasser und Seife waschen; bei Hautreizungen oder anhaltenden Beschwerden ärztlichen Rat einholen; wiederholter Kontakt kann zu spröder oder rissiger Haut führen.[attached_file:file:4]",
+"augenkontakt": "Sofort vorsichtig und gründlich mit Augen-Dusche oder fließendem Wasser spülen; Augen bei geöffnetem Lidspalt 10–15 Minuten spülen und anschließend umgehend Augenarzt aufsuchen.[attached_file:file:4]",
+"verschlucken": "Mund mit reichlich Wasser ausspülen (nur wenn die betroffene Person bei Bewusstsein ist) und anschließend Wasser trinken lassen; keine Versuche unternehmen, Erbrechen herbeizuführen, und sofort medizinische Hilfe holen; betroffene Person ruhig lagern, zudecken und warm halten.[attached_file:file:4]",
+"einatmen": "Person an die frische Luft bringen und für ungehinderte Atmung sorgen; nach Einatmen von Zersetzungsprodukten betroffene Person ruhig lagern; bei Atembeschwerden oder Atemstillstand umgehend künstliche Beatmung mit Beatmungsbeutel oder Gerät einleiten und medizinische Hilfe veranlassen.[attached_file:file:4]"
+},
+"first_aider_reference": "Ersthelfer sollen Selbstschutz beachten und geeignete persönliche Schutzausrüstung tragen; bei Bewusstlosigkeit stabile Seitenlage, keine Mund-zu-Mund- oder Mund-zu-Nase-Beatmung, sondern Beatmungsbeutel oder Gerät verwenden.[attached_file:file:4]",
+"disposal": "Dispose of product in accordance with the German Circular Economy Act (KrWG) and Directive 2008/98/EC, keeping this waste fraction separate from other wastes until recovery or disposal; avoid spreading and discharge to soil, water bodies, drains and sewer systems.[attached_file:file:4] Suggested waste codes for unused and used product: 20 01 28 (separately collected fractions of paints, inks, adhesives and resins other than those mentioned in 20 01 27); for uncleaned packaging: 15 01 02 (plastic packaging); contaminated packaging should be completely emptied, cleaned where possible for recycling, and non-cleanable packaging disposed of like the product.[attached_file:file:4]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}
