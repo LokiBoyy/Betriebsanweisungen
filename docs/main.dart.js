@@ -24572,16 +24572,16 @@ try{s=A.fl(B.c.bx(a,3),null)
 if(s<1||s>9)return""
 r=B.c.n4(J.bE(s),2,"0")
 q=A.m(r)
-return"pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_"+q+"_gr.gif"}catch(p){return""}},
+return"assets/pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_"+q+"_gr.gif"}catch(p){return""}},
 aDf(a){var s=$.aDb.i(0,a)
 if(s==null)return""
-return"pictograms/Gebotszeichen/"+s},
+return"assets/pictograms/Gebotszeichen/"+s},
 aDg(a){var s=$.aDc.i(0,a)
 if(s==null)return""
-return"pictograms/Warnzeichen/"+s},
+return"assets/pictograms/Warnzeichen/"+s},
 aDd(a){var s=$.aDa.i(0,a)
 if(s==null)return""
-return"pictograms/Rettungszeichen/"+s},
+return"assets/pictograms/Rettungszeichen/"+s},
 aKc(a,b,c,d){var s,r,q,p,o,n=A.q(d,c.h("L<0>"))
 for(s=c.h("x<0>"),r=0;r<1;++r){q=a[r]
 p=b.$1(q)

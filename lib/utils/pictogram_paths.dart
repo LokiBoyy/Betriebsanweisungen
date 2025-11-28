@@ -25,7 +25,7 @@ class PictogramPaths {
       if (number < 1 || number > 9) return '';
 
       final paddedNumber = number.toString().padLeft(2, '0');
-      return 'pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_${paddedNumber}_gr.gif';
+      return 'assets/pictograms/Kennzeichnung-von-Gefahrstoffen/GHS_${paddedNumber}_gr.gif';
     } catch (e) {
       return '';
     }
@@ -51,13 +51,13 @@ class PictogramPaths {
   /// Converts a safety equipment code to its file path.
   ///
   /// Input: 'goggles' (from JSON)
-  /// Output: 'pictograms/Gebotszeichen/M004_Augenschutz-benutzen.jpg'
+  /// Output: 'assets/pictograms/Gebotszeichen/M004_Augenschutz-benutzen.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getSafetyEquipmentPath(String code) {
     final filename = _safetyEquipment[code];
     if (filename == null) return '';
-    return 'pictograms/Gebotszeichen/$filename';
+    return 'assets/pictograms/Gebotszeichen/$filename';
   }
 
   /// Mapping of warning sign codes to their actual filenames.
@@ -75,13 +75,13 @@ class PictogramPaths {
   /// Converts a warning sign code to its file path.
   ///
   /// Input: 'warning-general' (from JSON)
-  /// Output: 'pictograms/Warnzeichen/W001-Allgemeines-Warnzeichen.jpg'
+  /// Output: 'assets/pictograms/Warnzeichen/W001-Allgemeines-Warnzeichen.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getWarningPath(String code) {
     final filename = _warnings[code];
     if (filename == null) return '';
-    return 'pictograms/Warnzeichen/$filename';
+    return 'assets/pictograms/Warnzeichen/$filename';
   }
 
   /// Mapping of emergency sign codes to their actual filenames.
@@ -98,13 +98,13 @@ class PictogramPaths {
   /// Converts an emergency sign code to its file path.
   ///
   /// Input: 'first-aid' (from JSON)
-  /// Output: 'pictograms/Rettungszeichen/E003-Erste-Hilfe.jpg'
+  /// Output: 'assets/pictograms/Rettungszeichen/E003-Erste-Hilfe.jpg'
   ///
   /// Returns empty string if code is not found.
   static String getEmergencyPath(String code) {
     final filename = _emergency[code];
     if (filename == null) return '';
-    return 'pictograms/Rettungszeichen/$filename';
+    return 'assets/pictograms/Rettungszeichen/$filename';
   }
 
   /// Checks if a safety equipment code is valid.
