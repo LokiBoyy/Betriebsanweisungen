@@ -15,10 +15,20 @@ class PictogramPaths {
   /// Output: 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_05_gr.gif'
   ///
   /// All GHS pictograms are .gif files with format: GHS_##_gr.gif
+  /// Returns empty string if code is invalid.
   static String getGHSPath(String code) {
-    // Extract number from code (e.g., 'ghs05' -> '05')
-    final number = code.substring(3).padLeft(2, '0');
-    return 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_${number}_gr.gif';
+    // Validate code format and range
+    if (!code.startsWith('ghs') || code.length < 5) return '';
+
+    try {
+      final number = int.parse(code.substring(3));
+      if (number < 1 || number > 9) return '';
+
+      final paddedNumber = number.toString().padLeft(2, '0');
+      return 'assets/pictograms/Kennzeichnung von Gefahrstoffen/GHS_${paddedNumber}_gr.gif';
+    } catch (e) {
+      return '';
+    }
   }
 
   /// Mapping of safety equipment codes to their actual filenames.
@@ -112,13 +122,17 @@ class PictogramPaths {
     return _emergency.containsKey(code);
   }
 
+  /// Gets all available GHS pictogram codes.
+  static List<String> get availableGHSCodes =>
+      ['ghs01', 'ghs02', 'ghs03', 'ghs04', 'ghs05', 'ghs06', 'ghs07', 'ghs08', 'ghs09'];
+
   /// Gets all available safety equipment codes.
-  static List<String> get availableSafetyEquipment =>
+  static List<String> get availableSafetyEquipmentCodes =>
       _safetyEquipment.keys.toList();
 
   /// Gets all available warning codes.
-  static List<String> get availableWarnings => _warnings.keys.toList();
+  static List<String> get availableWarningCodes => _warnings.keys.toList();
 
   /// Gets all available emergency codes.
-  static List<String> get availableEmergency => _emergency.keys.toList();
+  static List<String> get availableEmergencyCodes => _emergency.keys.toList();
 }
