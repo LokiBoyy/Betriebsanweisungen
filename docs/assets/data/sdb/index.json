@@ -5,5 +5,35 @@
       "name": "2-K-Epoxidkleber Endfest 300",
       "file": "uhu-plus-endfest-300.json"
     }
+    ,
+    {
+      "id": "uhu-plus-sofortfest-binder",
+      "name": "UHU plus schnellfest + sofortfest (Binder)",
+      "file": "uhu-plus-sofortfest-binder.json"
+    }
+    ,
+    {
+      "id": "636w80-primer",
+      "name": "636W80 - Primer",
+      "file": "636w80-primer.json"
+    }
+    ,
+    {
+      "id": "aquilim-315-dispersionskleber",
+      "name": "Aquilim 315 Dispersionskleber",
+      "file": "aquilim-315-dispersionskleber.json"
+    }
+    ,
+    {
+      "id": "asti-tech-komp-b",
+      "name": "ASTI-TECH Komp. B (Polyurethan-Härter, MDI-basiert)",
+      "file": "asti-tech-komp-b.json"
+    }
+    ,
+    {
+      "id": "black-glue-plastic-cleaner",
+      "name": "BLACK GLUE Plastikreiniger",
+      "file": "black-glue-plastic-cleaner.json"
+    }
   ]
 }

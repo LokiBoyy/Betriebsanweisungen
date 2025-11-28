@@ -1,0 +1,24 @@
+{
+  "id": "aquilim-315-dispersionskleber",
+  "document_number": "BA-005",
+  "document_date": "26.01.2021",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Werkstatt / Klebebereich",
+  "name": "Aquilim 315 Dispersionskleber",
+  "hazard_category": "Nicht als gefährlich eingestuft (wässrige Polychloropren-Dispersion)",
+  "pictograms": [],
+  "safety_equipment": ["gloves", "goggles"],
+  "hazards_description": "Das Gemisch ist nach Verordnung (EG) Nr. 1272/2008 nicht als gefährlich eingestuft. Dennoch können bei unsachgemäßem Umgang Reizungen von Haut und Augen auftreten und Lösungsmittelanteile können bei hoher Exposition Gesundheitsschäden verursachen.",
+  "protective_measures": "Nur im Freien oder in gut belüfteten Räumen verwenden. Kontakt mit Haut und Augen vermeiden, geeignete Schutzhandschuhe aus Nitrilkautschuk und bei Spritzgefahr dicht schließende Schutzbrille tragen. Am Arbeitsplatz nicht essen, trinken oder rauchen und vor Pausen sowie nach Arbeitsende Hände und Gesicht gründlich waschen.",
+  "emergency_procedures": "Bei unbeabsichtigter Freisetzung Haut- und Augenkontakt vermeiden und persönliche Schutzausrüstung tragen. Verschüttetes Produkt mit flüssigkeitsbindendem Material (z.B. Sand, Kieselgur, Universalbinder) aufnehmen und gemäß Entsorgungsvorschriften beseitigen. Ein Einleiten in Kanalisation, Gewässer oder Erdreich verhindern und Kanalisation ggf. abdecken.",
+  "emergency_phone_reference": "Betriebliche Notrufnummer / Grimme +49-221-630799-17 (Lieferant, Bürozeiten)",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung ausziehen und vor erneutem Tragen waschen. Haut sofort mit viel Wasser und Seife abwaschen.",
+    "augenkontakt": "Bei Berührung mit den Augen sofort bei geöffnetem Lidspalt 10–15 Minuten mit fließendem Wasser spülen und Augenarzt aufsuchen.",
+    "verschlucken": "Mund sofort ausspülen und reichlich Wasser nachtrinken. Kein Erbrechen herbeiführen. Bei Beschwerden oder allergischen Reaktionen Arzt hinzuziehen.",
+    "einatmen": "Betroffene Person aus dem Gefahrenbereich an die frische Luft bringen und hinlegen. Bei Atembeschwerden oder Atemstillstand unverzüglich künstliche Beatmung einleiten und ärztliche Behandlung veranlassen."
+  },
+  "first_aider_reference": "Ersthelfer siehe betriebliche Aushänge",
+  "disposal": "Nicht in die Kanalisation gelangen lassen. Abfälle und Behälter in gesicherter Weise gemäß Richtlinie 2008/98/EG und nationalen Vorschriften entsorgen. Abfallschlüssel z.B. 08 04 16: wässrige flüssige Abfälle, die Klebstoffe oder Dichtmassen enthalten. Nicht kontaminierte restentleerte Verpackungen recyceln, nicht ordnungsgemäß entleerte Gebinde als Sonderabfall behandeln.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

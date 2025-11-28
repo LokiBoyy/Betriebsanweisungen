@@ -1,0 +1,24 @@
+{
+  "id": "asti-tech-komp-b",
+  "document_number": "BA-006",
+  "document_date": "20.09.2022",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Gießerei / PU-Verarbeitung / Werkstatt",
+  "name": "ASTI-TECH Komp. B (Polyurethan-Härter, MDI-basiert)",
+  "hazard_category": "Isocyanat-haltiger PU-Härter; haut- und augenreizend, sensibilisierend, gesundheitsschädlich beim Einatmen, kann Krebs und Organschäden (Atmungssystem) verursachen",
+  "pictograms": ["ghs07", "ghs08"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+  "hazards_description": "Verursacht Hautreizungen und schwere Augenreizung. Kann allergische Hautreaktionen und bei Einatmen Allergie, asthmaartige Symptome oder Atembeschwerden verursachen. Gesundheitsschädlich bei Einatmen, kann die Atemwege reizen und bei längerer oder wiederholter Exposition Organe, insbesondere das Atmungssystem, schädigen. Verdacht auf krebserzeugende Wirkung. Enthält MDI-Isocyanate (4,4'-Methylendiphenyldiisocyanat und P-MDI), EUH204: Enthält Isocyanate, kann allergische Reaktionen hervorrufen.",
+  "protective_measures": "Arbeiten nur durch geschulte Beschäftigte mit spezieller Isocyanat-Schulung durchführen und bei bekannter Isocyanat-Allergie oder chronischen Atemwegserkrankungen keinen Kontakt zulassen. Für gute Be- und Entlüftung mit Absaugung an den Verarbeitungsstellen sorgen, Aerosol- und Nebelbildung vermeiden, beim Versprühen oder Arbeiten am warmen Produkt Atemschutz verwenden (Kombinationsfilter A-P2). Geeignete chemikalienbeständige Schutzhandschuhe aus Butyl-, Nitril- oder Chloroprenkautschuk tragen, dazu langärmelige geschlossene Arbeitskleidung bzw. Chemikalienschutzanzug sowie Schutzbrille mit Seitenschutz. Kontakt mit Haut, Augen und Kleidung vermeiden, verschmutzte Kleidung sofort ausziehen. Von Nahrungs- und Genussmitteln fernhalten und strenge Hygiene einhalten.",
+  "emergency_procedures": "Bei unbeabsichtigter Freisetzung Bereich räumen, Zündquellen fernhalten und für intensive Lüftung sorgen. Persönliche Schutzausrüstung inkl. Atemschutz verwenden, Dampf/Aerosol nicht einatmen und Eintrag in Kanalisation, Erdreich oder Gewässer verhindern. Größere Mengen abpumpen, Reste mit geeigneten flüssigkeitsbindenden Materialien aufnehmen und in dicht verschlossenen, gekennzeichneten Behältern der Problemabfallentsorgung zuführen. Bei Brand Löschpulver, CO2, Schaum oder Wassersprühstrahl verwenden; umluftunabhängiges Atemschutzgerät und Chemikalienschutzkleidung tragen, da u.a. Kohlenmonoxid, Kohlendioxid, Cyanwasserstoff, Stickoxide und Isocyanatdämpfe entstehen können.",
+  "emergency_phone_reference": "Giftzentrale Göttingen +49 (0)551 19240; betriebliche Notrufnummer siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung sofort entfernen. Haut sofort mit viel Wasser und Seife gründlich waschen; bei anhaltender Reizung oder Sensibilisierung ärztliche Behandlung veranlassen.",
+    "augenkontakt": "Augen bei weit geöffneten Lidern mindestens 15 Minuten unter fließendem Wasser spülen, Kontaktlinsen wenn möglich entfernen und weiter spülen; anschließend unverzüglich Augenarzt aufsuchen.",
+    "verschlucken": "Mund sofort ausspülen und etwa 200–300 ml Wasser nachtrinken lassen. Kein Erbrechen herbeiführen. Sofort medizinische Hilfe veranlassen.",
+    "einatmen": "Betroffene Person an die frische Luft bringen, ruhig lagern und vor Unterkühlung schützen. Bei Atembeschwerden, Husten, Engegefühl in der Brust oder Anzeichen von Lungenbeteiligung sofort Arzt bzw. Notarzt verständigen; bei Bewusstlosigkeit stabile Seitenlage."
+  },
+  "first_aider_reference": "Nur geschulte Ersthelfer; Hinweise zu Isocyanat-Exposition und Lungenödem (Corticosteroid-Dosieraerosol) beachten; detaillierte ärztliche Informationen siehe Betriebsanweisung/SDS.",
+  "disposal": "Isocyanatabfälle getrennt und in trockenen Behältern sammeln, niemals mit anderen Abfällen zusammen entsorgen wegen möglichem CO2-Überdruck. Entsorgung durch Verbrennung in zugelassener Sonderabfallverbrennungsanlage nach behördlichen Vorschriften; Abfallschlüssel z.B. 08 05 01* Isocyanatabfälle. Kontaminierte, nicht restentleerte Verpackungen wie den Stoff behandeln; nach gründlicher Reinigung können Verpackungen dem Recycling zugeführt werden.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Leitung PU-Bereich"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "black-glue-plastic-cleaner",
+  "document_number": "BA-007",
+  "document_date": "06.03.2023",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Werkstatt / Kunststoffreinigung",
+  "name": "BLACK GLUE",
+  "hazard_category": "Highly flammable hydrocarbon cleaner; aspiration hazard, skin irritant, narcotic effects, environmentally hazardous",
+  "pictograms": ["ghs02", "ghs07", "ghs08", "ghs09"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+  "hazards_description": "Highly flammable liquid and vapour (Flam. Liq. 2, H225). May be fatal if swallowed and enters airways (Asp. Tox. 1, H304). Causes skin irritation (Skin Irrit. 2, H315) and may cause drowsiness or dizziness (STOT SE 3, H336). Toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411); contains C7 hydrocarbons and small amounts of cyclohexane.",
+  "protective_measures": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke. Work only in well-ventilated areas with effective local exhaust; prevent formation of flammable vapour-air mixtures and electrostatic charges by grounding conductive parts. Avoid breathing vapours and avoid skin contact by wearing suitable chemical-resistant gloves, tight-fitting safety goggles and protective clothing; do not eat, drink or smoke at the workplace and wash hands thoroughly after handling.",
+  "emergency_procedures": "In case of accidental release, evacuate non‑protected persons, remove all ignition sources and ensure good ventilation. Prevent product from entering drains, soil or surface water and contain spill with sand or other inert absorbent (do not use sawdust or other combustible absorbents); collect in tightly closed, labelled containers for hazardous waste disposal. In case of fire, use ABC powder, foam or CO₂ extinguishers and cool exposed containers; combustion can produce toxic fumes such as carbon monoxide and other organic compounds, so firefighters should wear self-contained breathing apparatus.",
+  "emergency_phone_reference": "Notruf 112 (extern); betriebliche Notrufnummer siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung und Schuhe ausziehen. Haut mit viel Wasser und neutraler Seife gründlich waschen; bei anhaltender Reizung ärztliche Hilfe in Anspruch nehmen und Blasen nicht öffnen.",
+    "augenkontakt": "Augen sofort mit lauwarmem Wasser bei geöffneten Lidern mindestens 15 Minuten spülen und das Reiben der Augen vermeiden; Kontaktlinsen entfernen, sofern sie sich leicht lösen, und anschließend umgehend augenärztliche Behandlung veranlassen.",
+    "verschlucken": "Mund und Rachen mit Wasser ausspülen, betroffene Person ruhig halten und sofort ärztliche Hilfe bzw. Giftnotruf kontaktieren. Kein Erbrechen herbeiführen; bei Erbrechen Kopf tief halten, um Aspiration in die Lunge zu vermeiden.",
+    "einatmen": "Person an die frische Luft bringen, warm halten und in eine bequeme Position mit freier Atmung bringen. Bei Atemnot, Husten, Benommenheit oder Bewusstseinsstörungen sofort medizinische Hilfe anfordern und ggf. lebensrettende Maßnahmen (z.B. künstliche Beatmung) einleiten."
+  },
+  "first_aider_reference": "Ersthelfer nach betrieblicher Unterweisung; Hinweise zur Aspirationstoxizität beachten.",
+  "disposal": "Reste und kontaminierte Absorptionsmittel als gefährlichen Abfall entsorgen; nicht in Kanalisation, Gewässer oder Erdreich gelangen lassen. Abfall-Schlüssel z.B. 20 01 29* Detergenzien, die gefährliche Stoffe enthalten; Entsorgung über zugelassene Sonderabfallentsorger gemäß Richtlinie 2008/98/EG. Verpackungen, die mit Produkt in Kontakt standen, wie den Stoff selbst Behandlung zuführen oder nach vollständiger Entleerung gemäß Vorschriften entsorgen.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

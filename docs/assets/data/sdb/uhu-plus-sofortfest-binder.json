@@ -1,0 +1,24 @@
+{
+  "id": "uhu-plus-sofortfest-binder",
+  "document_number": "BA-002",
+  "document_date": "20.05.2023",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Montagewerkstatt / Klebbereich",
+  "name": "UHU plus schnellfest + sofortfest (Binder)",
+  "hazard_category": "Epoxidharz-Klebstoff, haut- und augenreizend, sensibilisierend, wassergefährlich",
+  "pictograms": ["ghs07", "ghs09"],
+  "safety_equipment": ["goggles", "gloves"],
+  "hazards_description": "Verursacht Hautreizungen und schwere Augenreizung. Kann allergische Hautreaktionen verursachen. Giftig für Wasserorganismen, mit langfristiger Wirkung (WGK 2 - deutlich wassergefährlich).",
+  "protective_measures": "Schutzhandschuhe tragen (Materialstärke > 0,12 mm, z.B. Butylkautschuk oder Ethylvinylalkohollaminat für Langzeitanwendung). Dichtschließende Schutzbrille verwenden, besonders beim Umfüllen. Einnehmen von Dampf vermeiden. Für gute Belüftung/Absaugung am Arbeitsplatz sorgen und Aerosolbildung vermeiden.",
+  "emergency_procedures": "Bei Freisetzung: Bereich räumen und für ausreichende Lüftung sorgen. Verschüttetes Produkt mit flüssigkeitsbindendem Material (Sand, Kieselgur, Säurebinder, Universalbinder, Sägemehl) aufnehmen und in geeigneten Behältern zur Entsorgung sammeln. Eindringen in Kanalisation oder Gewässer verhindern - bei Kontakt zuständige Behörden benachrichtigen.",
+  "emergency_phone_reference": "+49 (0) 30/19240 oder +49 (0) 7223/2840; siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Sofort mit viel Wasser und Seife abwaschen und gut nachspülen. Bei anhaltenden Reaktionen ärztlichen Rat einholen.",
+    "augenkontakt": "Augen mehrere Minuten bei geöffnetem Lidspalt unter fließendem Wasser spülen. Eventuell Kontaktlinsen entfernen und weiter spülen. Bei anhaltenden Beschwerden Augenarzt konsultieren.",
+    "verschlucken": "Bei anhaltenden Beschwerden ärztliche Hilfe in Anspruch nehmen.",
+    "einatmen": "An die frische Luft gehen. Reichlich Frischluftzufuhr sicherstellen und sicherheitshalber Arzt aufsuchen. Bei Bewusstlosigkeit stabile Seitenlage und Transport durch Sanitäter."
+  },
+  "first_aider_reference": "Betriebliche Ersthelfer siehe Aushang",
+  "disposal": "Produktreste und kontaminierte Absorptionsmittel nicht über Hausmüll oder Kanalisation entsorgen, sondern als Gefahrstoffabfall (Abfallschlüssel gemäß Betriebssicherheitsverordnung) fachgerecht entsorgen. Verpackungen über das Duale System Deutschland (grüner Punkt) zurückgeben oder gemäß lokalen Vorschriften entsorgen.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Meister(in)"
+}
