@@ -38610,7 +38610,7 @@ s=p}while(true)switch(s){case 0:e=n.a
 if(e.ae("product_index")){q=t.L3.a(e.i(0,"product_index"))
 s=1
 break}p=4
-m="data/sdb/index.json"
+m="assets/data/sdb/index.json"
 s=7
 return A.T(A.aw9(A.d7(m)),$async$pa)
 case 7:l=b
@@ -38647,7 +38647,7 @@ e=n.a
 if(e.ae(f)){q=t.WC.a(e.i(0,f))
 s=1
 break}p=4
-m="data/sdb/"+a
+m="assets/data/sdb/"+a
 s=7
 return A.T(A.aw9(A.d7(m)),$async$xZ)
 case 7:l=c

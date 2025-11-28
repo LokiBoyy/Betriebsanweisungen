@@ -24,7 +24,7 @@ class DataService {
   final Map<String, dynamic> _cache = {};
 
   /// Base path for data files (relative URL)
-  static const String _basePath = 'data/sdb';
+  static const String _basePath = 'assets/data/sdb';
 
   /// Load the product index from `/data/sdb/index.json`
   ///
