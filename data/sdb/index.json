@@ -35,5 +35,59 @@
       "name": "BLACK GLUE Plastikreiniger",
       "file": "black-glue-plastic-cleaner.json"
     }
+    ,
+    {
+      "id": "bremsenreiniger-0890-108-7",
+      "name": "BREMSENREINIGER 500 ML (Würth 0890 108 7)",
+      "file": "bremsenreiniger-0890-108-7.json"
+    }
+    ,
+    {
+      "id": "durospray-citrusreiniger-500ml",
+      "name": "DuroSpray Citrusreiniger (Sprühdose 500 ml)",
+      "file": "durospray-citrusreiniger-500ml.json"
+    }
+    ,
+    {
+      "id": "dentafloc-tabs",
+      "name": "Dentafloc Tabs",
+      "file": "dentafloc-tabs.json"
+    }
+    ,
+    {
+      "id": "durospray-ds-ortho-3040",
+      "name": "DuroSpray DS Ortho 3040 (Aerosol)",
+      "file": "durospray-ds-ortho-3040.json"
+    }
+    ,
+    {
+      "id": "epoxidharz-420597-419368",
+      "name": "Epoxidharzklebstoff (Artikel 420597, 419368)",
+      "file": "epoxidharz-420597-419368.json"
+    }
+    ,
+    {
+      "id": "farbpaste-419xxx",
+      "name": "Farbpaste verschiedene Farben (Art.-Nr. 419XXX)",
+      "file": "farbpaste-419xxx.json"
+    }
+    ,
+    {
+      "id": "fluessighaerter-419620",
+      "name": "Flüssighärter (Artikelnummer 419620)",
+      "file": "fluessighaerter-419620.json"
+    }
+    ,
+    {
+      "id": "beschleunigerspray-gp",
+      "name": "Beschleunigerspray GP (Aerosol-Aktivator)",
+      "file": "beschleunigerspray-gp.json"
+    }
+    ,
+    {
+      "id": "gummiloesung-180",
+      "name": "Gummilösung 180",
+      "file": "gummiloesung-180.json"
+    }
   ]
 }

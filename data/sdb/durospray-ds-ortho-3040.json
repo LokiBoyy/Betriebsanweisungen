@@ -1,0 +1,24 @@
+{
+"id": "durospray-ds-ortho-3040",
+"document_number": "BA-011",
+"document_date": "27.02.2024",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Klebstoff-Sprühauftrag",
+"name": "DuroSpray DS Ortho 3040 (Aerosol)",
+"hazard_category": "Extremely flammable adhesive aerosol; skin and eye irritant, narcotic effects, environmentally hazardous to aquatic organisms with long-lasting effects",
+"pictograms": ["ghs02", "ghs07"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as extremely flammable aerosol with pressurized container that may burst when heated (Aerosol 1, H222, H229).[attached_file:file:2] Causes skin irritation and serious eye irritation (Skin Irrit. 2, H315; Eye Irrit. 2, H319), may cause drowsiness and dizziness (STOT SE 3, H336), and is harmful to aquatic life with long-lasting effects (Aquatic Chronic 3, H412).[attached_file:file:2] Contains dimethyl ether, acetone and C6–C7 isoalkane hydrocarbons, which contribute to high flammability and solvent-related health effects.[attached_file:file:2]",
+"protective_measures": "Use only in well-ventilated areas or with local exhaust ventilation and avoid inhaling aerosol or vapours; keep away from heat, hot surfaces, sparks, open flames and other ignition sources, and do not smoke.[attached_file:file:2] Do not spray on open flames or other ignition sources, protect aerosol cans from sunlight and temperatures above 50 °C, and prevent static discharge.[attached_file:file:2] Wear suitable chemical-resistant protective gloves (e.g. NBR, approx. 0.35 mm, sufficient breakthrough time), tight-fitting safety goggles/face shield and protective clothing; avoid skin and eye contact and remove contaminated clothing immediately.[attached_file:file:2]",
+"emergency_procedures": "In case of accidental release, keep unprotected persons away, ventilate the area, avoid breathing vapours or aerosol, and use appropriate protective equipment; if vapour concentrations are high or ventilation is insufficient, use suitable respiratory protection with type AX filter.[attached_file:file:2] Prevent the product from entering drains, surface or groundwater; cover drains, retain contaminated wash water, and collect material into suitable labelled containers for disposal.[attached_file:file:2] In case of fire, use water spray, BC powder or carbon dioxide; cool aerosol cans with water spray, do not inhale explosion and combustion gases, and collect contaminated extinguishing water separately.[attached_file:file:2]",
+"emergency_phone_reference": "Giftinformationszentrum Mainz +49 (6131) 19240; betriebliche Notrufnummer siehe Aushang.[attached_file:file:2]",
+"first_aid": {
+"hautkontakt": "Bei Berührung mit der Haut kontaminierte, getränkte Kleidung sofort ausziehen und die Haut sofort mit viel Wasser und Seife waschen; bei Hautreizung oder -ausschlag ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.[attached_file:file:2]",
+"augenkontakt": "Kontaktlinsen, falls möglich, entfernen; Augenlider geöffnet halten und mindestens 10 Minuten mit sauberem, fließendem Wasser spülen; bei anhaltender Augenreizung ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.[attached_file:file:2]",
+"verschlucken": "Mund mit Wasser ausspülen, sofern die betroffene Person bei Bewusstsein ist; kein Erbrechen herbeiführen; bei Exposition oder Unwohlsein sofort Giftinformationszentrum oder Arzt anrufen.[attached_file:file:2]",
+"einatmen": "Person an die frische Luft bringen und für ungehinderte Atmung sorgen; bei unregelmäßiger Atmung oder Atemstillstand sofort Notarzt rufen und Erste-Hilfe-Maßnahmen einleiten; bei Reizung der Atemwege, Schläfrigkeit oder Benommenheit Arzt aufsuchen.[attached_file:file:2]"
+},
+"first_aider_reference": "Ersthelfer sollen geeignete persönliche Schutzausrüstung tragen; bei ausgeprägten Beschwerden, Bewusstseinsstörungen oder Atemproblemen immer umgehend Notarzt hinzuziehen.[attached_file:file:2]",
+"disposal": "Do not allow product or residues to enter drains or the environment; avoid release to the environment and obtain special instructions before disposal.[attached_file:file:2] Treat contents and containers as hazardous waste and dispose of them in accordance with local, regional, national and international regulations, e.g. waste code 16 05 04 for gases in pressure containers containing hazardous substances; empty metal packaging (15 01 04) can be recycled after proper depressurisation.[attached_file:file:2]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

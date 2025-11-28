@@ -1,0 +1,24 @@
+{
+  "id": "bremsenreiniger-0890-108-7",
+  "document_number": "BA-008",
+  "document_date": "27.10.2025",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Werkstatt / Bremsenreinigung",
+  "name": "BREMSENREINIGER 500 ML (Würth 0890 108 7)",
+  "hazard_category": "Extremely flammable brake cleaner aerosol; skin irritant, narcotic effects, environmentally hazardous",
+  "pictograms": ["ghs02", "ghs07", "ghs09"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+  "hazards_description": "Extremely flammable aerosol, container under pressure and may burst when heated (Aerosol 1, H222, H229). Causes skin irritation (Skin Irrit. 2, H315) and may cause drowsiness and dizziness (STOT SE 3, H336). Toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411). Contains C6–C7 hydrocarbons (n- and iso-alkanes, cyclics, <5 % n-hexane) and liquefied carbon dioxide as propellant.",
+  "protective_measures": "Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke and do not spray on open flame or other ignition source. Use only in well-ventilated areas or with local exhaust; avoid inhalation of aerosol and vapour and contact with skin and eyes. Wear suitable nitrile protective gloves (breakthrough time >480 min, thickness >0.45 mm), safety goggles, antistatic flame-resistant work clothing and, if ventilation is insufficient or exposure limits are exceeded, suitable respiratory protection. Prevent uncontrolled release to the environment and avoid accumulation of electrostatic charges.",
+  "emergency_procedures": "In case of accidental release, remove all ignition sources, ensure good ventilation and use spark-free tools. Avoid product entering drains, soil or surface waters; contain large spills with barriers and absorb residues with inert absorbent, then collect in labelled containers for disposal. In case of fire, use water mist, alcohol-resistant foam, CO₂ or dry powder; cool closed containers with water spray and remove undamaged aerosol cans from the danger zone if safe to do so. Fire may produce hazardous combustion products such as carbon oxides and explosive vapour-air mixtures.",
+  "emergency_phone_reference": "Tox Info Suisse 145 (+41 44 251 51 51); betriebliche Notrufnummer siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung sofort ausziehen. Haut sofort mit viel Wasser und Seife mindestens 15 Minuten waschen; bei anhaltender Reizung oder Beschwerden ärztliche Hilfe veranlassen und Kleidung vor Wiederverwendung reinigen.",
+    "augenkontakt": "Augen vorsorglich mit Wasser spülen; bei anhaltender oder zunehmender Reizung ärztliche Behandlung bzw. Augenarzt aufsuchen.",
+    "verschlucken": "Mund gründlich mit Wasser ausspülen. Kein Erbrechen herbeiführen. Bei Beschwerden oder Unwohlsein sofort ärztliche Betreuung aufsuchen und Sicherheitsdatenblatt vorlegen.",
+    "einatmen": "Betroffene Person an die frische Luft bringen und für ungehinderte Atmung sorgen. Bei Beschwerden wie Husten, Schwindel oder Benommenheit ärztliche Betreuung aufsuchen; bei Bewusstlosigkeit stabile Seitenlage und Notruf."
+  },
+  "first_aider_reference": "Ersthelfer mit geeigneter PSA; Augen- und Notduschen in Arbeitsraumnähe vorsehen.",
+  "disposal": "Nicht in Ausguss, Kanalisation oder Umwelt gelangen lassen. Flüssigreste und Absorptionsmittel als gefährliche Abfälle entsorgen, z.B. Abfallschlüssel 14 06 03* (andere Lösemittel und Lösemittelgemische). Leere, aber nicht gereinigte Aerosoldosen als gefährliche Verpackungen (15 01 10*) einer anerkannten Entsorgungsanlage zuführen; Dosen vollständig leersprühen und niemals durchstechen oder verbrennen.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

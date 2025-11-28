@@ -1,0 +1,24 @@
+{
+  "id": "durospray-citrusreiniger-500ml",
+  "document_number": "BA-009",
+  "document_date": "07.03.2022",
+  "company_name": "Sanimotion GmbH",
+  "workplace": "Werkstatt / Oberflächenreinigung",
+  "name": "DuroSpray Citrusreiniger (Sprühdose 500 ml)",
+  "hazard_category": "Extremely flammable citrus cleaner aerosol; skin irritant, skin sensitiser, narcotic effects, environmentally hazardous",
+  "pictograms": ["ghs02", "ghs07", "ghs09"],
+  "safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+  "hazards_description": "Extremely flammable aerosol, container under pressure and may burst when heated (Aerosol 1, H222, H229). Causes skin irritation and can cause allergic skin reactions due to citrus oil (Skin Irrit. 2, Skin Sens. 1, H315, H317). May cause drowsiness and dizziness (STOT SE 3, H336). Toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411). Contains liquefied petroleum gas, sweet orange oil, hydrotreated heavy naphtha and acetone.",
+  "protective_measures": "Use only in well-ventilated areas or with local exhaust and avoid inhalation of aerosol. Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke and do not spray on open flame or other ignition source. Wear suitable protective gloves (e.g. butyl, approx. 0.5 mm), safety goggles/face shield and protective clothing; avoid skin and eye contact, especially in persons with asthma or skin conditions. Prevent release to the environment and protect from direct sunlight and temperatures above 50 °C.",
+  "emergency_procedures": "In case of accidental release, evacuate non‑trained persons, ventilate the area and avoid breathing vapours or aerosol; use respiratory protection if necessary. Prevent the product from entering drains, surface or groundwater; cover drains and collect spilled material into suitable containers for disposal. In case of fire, use spray water and BC powder; cool aerosol cans with water spray, do not inhale explosion and combustion gases and collect contaminated extinguishing water separately.",
+  "emergency_phone_reference": "Giftinformationszentrum Mainz +49 (6131) 19240; betriebliche Notrufnummer siehe Aushang",
+  "first_aid": {
+    "hautkontakt": "Kontaminierte Kleidung sofort ausziehen. Haut mit viel Wasser und Seife gründlich waschen; bei Hautreizung oder -ausschlag ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.",
+    "augenkontakt": "Kontaktlinsen, falls möglich, entfernen. Augenlider geöffnet halten und mindestens 10 Minuten mit sauberem, fließendem Wasser spülen; anschließend Augenarzt aufsuchen, wenn Beschwerden anhalten.",
+    "verschlucken": "Mund mit Wasser ausspülen, sofern die betroffene Person bei Bewusstsein ist. Kein Erbrechen herbeiführen. Bei Unwohlsein oder Verdacht auf Verschlucken sofort Giftinformationszentrum/Arzt kontaktieren.",
+    "einatmen": "Person an die frische Luft bringen und für ungehinderte Atmung sorgen. Bei Atemwegsreizungen, Schläfrigkeit oder Benommenheit ärztliche Hilfe in Anspruch nehmen; bei unregelmäßiger Atmung oder Atemstillstand sofort Notarzt rufen und Erste-Hilfe-Maßnahmen einleiten."
+  },
+  "first_aider_reference": "Ersthelfer mit geeigneter PSA; bei Personen mit Asthma oder Hauterkrankungen besonderen Schutz beachten.",
+  "disposal": "Nicht in die Kanalisation oder Umwelt gelangen lassen; Freisetzung in die Umwelt vermeiden. Behälter/Produkt als gefährlichen Abfall entsorgen, z.B. 16 05 04* Gase in Druckbehältern mit gefährlichen Stoffen; metallische Verpackungen 15 01 04 nach vollständiger Entleerung recyceln. Nur zugelassene Verpackungen gemäß ADR verwenden und nationale/regionale Vorschriften beachten.",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

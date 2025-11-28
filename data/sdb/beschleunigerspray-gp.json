@@ -1,0 +1,24 @@
+{
+"id": "beschleunigerspray-gp",
+"document_number": "BA-015",
+"document_date": "13.11.2023",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Beschleunigerspray (Aktivator) Anwendung",
+"name": "Beschleunigerspray GP (Aerosol-Aktivator)",
+"hazard_category": "Extremely flammable accelerator aerosol; skin irritant, narcotic effects, aspiration hazard, environmentally hazardous to aquatic life with long lasting effects",
+"pictograms": ["ghs02", "ghs07", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as extremely flammable aerosol with pressurised container that may burst if heated (Aerosol 1, H222, H229).[attached_file:file:6] Causes skin irritation (Skin Irrit. 2, H315), may cause drowsiness and dizziness (STOT SE 3, H336), is toxic to aquatic life with long lasting effects (Aquatic Chronic 2, H411), and can be fatal if swallowed and enters airways due to hydrocarbon content (Asp. Tox. 1, H304).[attached_file:file:6] Contains hydrocarbons C6–C7 (n-alkanes, isoalkanes, cyclenes, ≤5% n-hexane), butane, propane and small amounts of N,N-dimethyl-p-toluidine, which contribute to flammability, narcotic effects and systemic toxicity.[attached_file:file:6]",
+"protective_measures": "Use only outdoors or in well-ventilated areas; avoid inhalation of gas, vapour, aerosol and prevent contact with skin, eyes and clothing; ensure local exhaust where possible.[attached_file:file:6] Keep away from heat, hot surfaces, sparks, open flames and other ignition sources; do not smoke, do not spray on open flames or glowing objects, do not pierce or burn the container even after use, and protect from sunlight and temperatures above 50 °C.[attached_file:file:6] Implement measures against electrostatic discharge, avoid uncontrolled release to the environment, and wear suitable chemical-resistant gloves (e.g. FKM/Viton with adequate breakthrough time), safety goggles with side protection, antistatic safety shoes and work clothing.[attached_file:file:6]",
+"emergency_procedures": "In case of accidental release, remove all ignition sources, ensure adequate ventilation, avoid inhalation of gas, vapours or aerosols, and keep untrained persons away; use appropriate personal protective equipment.[attached_file:file:6] Prevent the product from entering drains, surface waters, soil or groundwater; absorb spilled liquid with suitable binding material (sand, diatomaceous earth, acid binder, universal binder) and collect in appropriate containers for disposal according to regulations.[attached_file:file:6] In case of fire, use CO₂, foam or dry powder; avoid full water jet, cool exposed aerosol cans with water spray, wear self-contained breathing apparatus and chemical protective suit, and collect contaminated extinguishing water separately to prevent environmental contamination.[attached_file:file:6]",
+"emergency_phone_reference": "GBK GmbH 24-h-Notfallnummer: +49 (0)6132-84463; betriebliche Notrufnummer siehe Aushang.[attached_file:file:6]",
+"first_aid": {
+"hautkontakt": "Bei Berührung mit der Haut sofort mit viel Wasser und Seife waschen; alle kontaminierten Kleidungsstücke sofort ausziehen und vor erneutem Tragen waschen; bei Hautreizung ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen.[attached_file:file:6]",
+"augenkontakt": "Augen bei geöffneten Lidern ausreichend lange mit Wasser spülen; anschließend umgehend Augenarzt konsultieren.[attached_file:file:6]",
+"verschlucken": "Mund mit reichlich Wasser ausspülen (nur wenn die betroffene Person bei Bewusstsein ist) und sofort medizinische Hilfe holen; bei Erbrechen Aspirationsgefahr beachten und Kopf/ Oberkörper möglichst tief halten, um Eindringen in die Atemwege zu vermeiden.[attached_file:file:6]",
+"einatmen": "Person an die frische Luft bringen und für ungehinderte Atmung sorgen; bei allergischen Erscheinungen insbesondere im Atembereich sofort Arzt hinzuziehen; bei Beschwerden oder anhaltenden Symptomen ärztliche Behandlung veranlassen.[attached_file:file:6]"
+},
+"first_aider_reference": "Ersthelfer sollen geeignete persönliche Schutzausrüstung tragen und bei unklaren oder schweren Symptomen immer ärztlichen Rat einholen; bei Verdacht auf Aspiration oder ausgeprägte Atemwegsbeschwerden ist eine sofortige notärztliche Versorgung erforderlich.[attached_file:file:6]",
+"disposal": "Do not discharge into drains, surface waters or soil; dispose of contents as hazardous waste in accordance with local and national regulations, using waste code 16 05 04 for gases in pressure containers containing hazardous substances.[attached_file:file:6] Non-contaminated and fully emptied packaging can be recycled; contaminated packaging must be treated and disposed of like the product.[attached_file:file:6]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}
