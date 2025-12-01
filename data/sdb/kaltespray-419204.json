@@ -1,0 +1,27 @@
+{
+  "id": "kaltespray-419204",
+  "document_number": "SDB 419204",
+  "document_date": "02.05.2022",
+  "revision": "2.1",
+  "company_name": "ortho connect GmbH",
+  "workplace": "Werkstatt / Kältetherapie mit Kältespray",
+  "name": "Kältespray (Art.-Nr. 419204) – Aerosol mit Butangas und Propangas",
+  "hazard_category": "Extremely flammable aerosol; pressurized container; risk of bursting when heated; deep cryogenic liquid causes cold burns and frostbite",
+  "pictograms": ["ghs02", "ghs04"],
+  "safety_equipment": ["goggles", "gloves-thermal-insulated", "protective-clothing"],
+  "hazards_description": "Classified as Aerosol 1 – extremely flammable aerosol (H222) and pressurized container that may burst when heated (H229, H280).[attached_file:file:12] Contains liquefied propane (30–35%, CAS 74-98-6, Flam. Gas 1, H220 H280) and butane (65–70%, CAS 106-97-8, Flam. Gas 1, H220 H280). Hazard: Deep cryogenic liquid – contact with the product causes cold burns and frostbite. Vapours form explosive mixtures with air (explosion limits 5–15 vol%). Until flammable constituents have completely evaporated, explosive vapour-air mixtures may form even after use.[attached_file:file:12] Not ecotoxic and not classified as environmentally hazardous; however, all ignition sources must be eliminated.",
+  "protective_measures": "Do not pierce or burn the container, even after use. Do not spray against flame or incandescent objects. Keep away from heat sources (hot surfaces, sparks, open flames), sunlight; storage temperature must not exceed 50 °C. Prevent formation of static electricity and use anti-static equipment. Wear eye protection/face shield (EN 166), thermally insulated cuff gloves (hand and wrist protection from cold burns), and anti-static work clothing; avoid skin contact with the spray product. Normal personal respiratory protection is not necessary when used as directed.[attached_file:file:12] Store in tightly closed containers in a cool, well-ventilated location (15–25 °C recommended) away from oxidizing agents, heat sources and ignition sources. Do not expose to sunlight.",
+  "emergency_procedures": "In case of accidental release, eliminate all ignition sources immediately. Contain spillage with sand, diatomaceous earth, acid binder, or universal binder to prevent spread, especially preventing entry into drains and surface water. Keep vapours away from flame and potential ignition sources because explosive mixtures may form. In case of fire, use water spray, alcohol-resistant foam, dry powder (dry chemical) or CO₂ (avoid full water jet); wear self-contained breathing apparatus (SCBA) and use water spray to cool exposed containers. Do not allow contaminated firefighting water to enter drains or surface water.[attached_file:file:12]",
+  "emergency_phone_reference": "Giftnotdienst der Charité Universitätsmedizin Berlin, 24h: +49 (0)30 30 68 67 00; betriebliche Notrufnummer siehe Aushang.[attached_file:file:12]",
+  "first_aid": {
+    "hautkontakt": "In case of contact with the deep cryogenic liquid: Immerse affected area in lukewarm (not hot) water; do NOT rub the affected area. Remove contaminated clothing and rewash before reuse. If skin injury occurs, consult a physician. Symptom-driven treatment.[attached_file:file:12]",
+    "augenkontakt": "Rinse immediately and carefully with eye wash or water. Remove contact lenses if present. If eye irritation persists, consult an ophthalmologist.[attached_file:file:12]",
+    "verschlucken": "Route of exposure not applicable (aerosol spray).[attached_file:file:12]",
+    "einatmen": "Move to fresh air. If breathing difficulties develop, consult a physician.[attached_file:file:12]"
+  },
+  "first_aider_reference": "In case of doubt or if symptoms are present, always consult a physician. For contact with the deep cryogenic liquid, symptomatic treatment is required. Seek immediate medical attention for suspected frostbite or cold burns.[attached_file:file:12]",
+  "fire_suppression": "Suitable extinguishing agents: water spray, CO₂, foam, dry powder. Unsuitable: full water jet. Wear SCBA and chemical-resistant protective suit. Cool containers in danger area with water spray.[attached_file:file:12]",
+  "disposal": "Do not dispose of in drain or into surface water; dispose in accordance with local authority regulations.[attached_file:file:12] Waste code for unused product: 160504 (hazardous waste – gases in pressurized containers containing hazardous substances). Completely emptied containers may be recycled; non-cleanable containers must be disposed of as hazardous waste.[attached_file:file:12]",
+  "transport_classification": "UN 1950 (Aerosols/Pressurized gas containers), Class 2.1 (flammable gas), Packing Group II. Special precautions: ADR/RID 190, 327, 344, 625. Limited Quantity (LQ) 1 L; Passenger aircraft limit 30 kg G.[attached_file:file:12]",
+  "responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

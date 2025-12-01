@@ -1,0 +1,24 @@
+{
+"id": "helmitin-688-euroleder",
+"document_number": "BA-XXX",
+"document_date": "07.11.2022",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Lederkleben mit Helmitin 688",
+"name": "Helmitin 688 (lösemittelhaltiger Industrieklebstoff)",
+"hazard_category": "Highly flammable solvent-based adhesive; skin irritant, narcotic effects, aspiration hazard, toxic to aquatic life with long lasting effects",
+"pictograms": ["ghs02", "ghs07", "ghs08", "ghs09"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as flammable liquid category 2 with easily flammable liquid and vapour (Flam. Liq. 2, H225), skin irritant category 2 (H315) and specific target organ toxicity single exposure category 3 for the central nervous system (H336: may cause drowsiness and dizziness).[attached_file:file:10] Also classified as aspiration hazard category 1 (H304: may be fatal if swallowed and enters airways) and as hazardous to the aquatic environment, chronic category 2 (H411: toxic to aquatic life with long lasting effects); contains Naphtha C6–C7 (cyclics and isoalkanes, 90–100%), 1–10% isopropanol and a small amount of n-hexane contributing to reproductive and organ toxicity classification.[attached_file:file:10]",
+"protective_measures": "Avoid inhalation of vapours and contact with skin and eyes; use only in well-ventilated areas and ensure effective local exhaust at processing machines to keep concentrations below workplace limits.[attached_file:file:10] Keep away from heat, hot surfaces, sparks and open flames; do not smoke, take measures against electrostatic discharge, and keep containers tightly closed in a cool, dry, well-ventilated place (TRGS 510 LGK 3 flammable liquids).[attached_file:file:10] Wear suitable chemical-resistant gloves (e.g. butyl rubber for longer contact, nitrile disposable gloves as splash protection), tightly fitting safety goggles and protective clothing; wash hands before breaks and after work and store contaminated work clothing separately.[attached_file:file:10]",
+"emergency_procedures": "In case of accidental release, remove all ignition sources, provide adequate ventilation and use personal protective equipment including respiratory protection if vapours or aerosols are present.[attached_file:file:10] Prevent entry into drains, cellars, holes, surface water or soil; absorb with inert liquid-binding material (e.g. sand, silica gel, acid binder, universal binder, sawdust), use spark-free tools and collect in suitable containers for recovery or disposal as hazardous waste.[attached_file:file:10] In case of fire, use water mist, foam, dry powder or CO₂; avoid full water jet, wear self-contained breathing apparatus and dispose of contaminated extinguishing water and residues according to official regulations.[attached_file:file:10]",
+"emergency_phone_reference": "24-h-Notrufnummer: +44 1235 239 670; betriebliche Notrufnummer siehe Aushang.[attached_file:file:10]",
+"first_aid": {
+"hautkontakt": "Beschmutzte Kleidung sofort ausziehen; betroffene Haut mit viel Wasser und Seife waschen; bei anhaltender Hautreizung ärztlichen Rat einholen.[attached_file:file:10]",
+"augenkontakt": "Augen mindestens 15 Minuten mit Wasser spülen; bei anhaltender oder auftretender Reizung ärztliche Betreuung aufsuchen.[attached_file:file:10]",
+"verschlucken": "Mund mit Wasser ausspülen, bei Bewusstsein reichlich Wasser trinken; kein Erbrechen herbeiführen wegen Aspirationsgefahr; sofort Arzt bzw. Giftinformationszentrum kontaktieren.[attached_file:file:10]",
+"einatmen": "Betroffene Person an die frische Luft bringen und ruhig lagern; bei anhaltenden Beschwerden oder Symptomen ärztliche Betreuung veranlassen, bei Bewusstlosigkeit stabile Seitenlage.[attached_file:file:10]"
+},
+"first_aider_reference": "Ersthelfer sollen auf Eigenschutz achten, kontaminierte Kleidung sofort entfernen und bei Verdacht auf Aspiration oder ausgeprägte Atemwegs-, Bewusstseins- oder Nervensymptome unverzüglich ärztliche Hilfe bzw. Notarzt hinzuziehen; eine ärztliche Überwachung über mindestens 48 Stunden kann erforderlich sein.[attached_file:file:10]",
+"disposal": "Do not dispose of with household waste and do not pour into drains; hand over residues and absorbents to authorised hazardous-waste disposers in accordance with local and national regulations.[attached_file:file:10] Suggested waste codes include 08 04 09 or 08 04 11 for adhesive wastes and sludges containing organic solvents or other hazardous substances; packaging with hazardous residues is coded e.g. 15 01 10 and must be disposed of according to regulations, while clean, empty packaging of paper, plastic or metal may enter appropriate recycling streams.[attached_file:file:10]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

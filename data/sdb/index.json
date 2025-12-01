@@ -89,5 +89,60 @@
       "name": "Gummilösung 180",
       "file": "gummiloesung-180.json"
     }
+    ,
+    {
+      "id": "hekapur-hartschaum-h-komponente-a-000010",
+      "name": "HEKAPUR Hartschaum H Komponente A (Materialnr. 000010)",
+      "file": "hekapur-hartschaum-h-komponente.json"
+    }
+    ,
+    {
+      "id": "helmitin-688-euroleder",
+      "name": "Helmitin 688 (lösemittelhaltiger Industrieklebstoff)",
+      "file": "helmitin-688-euroleder.json"
+    }
+    ,
+    {
+      "id": "isopropanol-419364-419847",
+      "name": "Isopropanol / 2-Propanol / Isopropylalkohol (Art.-Nr. 419364, 419847)",
+      "file": "isopropanol-419364-419847.json"
+    }
+    ,
+    {
+      "id": "kaltespray-419204",
+      "name": "Kältespray (Art.-Nr. 419204) – Aerosol mit Butangas und Propangas",
+      "file": "kaltespray-419204.json"
+    }
+    ,
+    {
+      "id": "sekundenkleber-blau-kl2100",
+      "name": "Sekundenkleber blau (Blue Adhesive) – Ethyl-Cyanacrylat-Klebstoff, Art.-Nr. KL2100",
+      "file": "sekundenkleber-blau-kl2100.json"
+    }
+    ,
+    {
+      "id": "klax-brennspiritus-d860888",
+      "name": "Klax Brennspiritus – Ethanol-basiertes Brennstoffgemisch",
+      "file": "klax-brennspiritus-d860888.json"
+    }
+    ,
+    {
+      "id": "sonax-klebstoffrest-entferner-04773000",
+      "name": "SONAX Klebstoffrest-Entferner – Extrem entzndbares Lösemittel-Aerosol",
+      "file": "sonax-klebstoffrest-entferner.json"
+    },
+    {
+      "id": "renia-ortec-kontaktkleber-170000",
+      "name": "Renia Ortec – Polychlopropen-Kontaktkleber (Flüssig)",
+      "file": "renia-ortec-kontaktkleber.json"
+    }
+    ,
+    {
+      "id": "lane-silikon-trennmittel-82785",
+      "name": "LaNe Silikon-Trennmittel oliv (Art. 82785 ff.)",
+      "file": "lane-silikon-trennmittel.json"
+    }
+    
+
   ]
 }

@@ -1,0 +1,24 @@
+{
+"id": "hekapur-hartschaum-h-komponente-a-000010",
+"document_number": "BA-XXX",
+"document_date": "29.08.2024",
+"company_name": "Sanimotion GmbH",
+"workplace": "Werkstatt / Verarbeitung HEKAPUR Hartschaum (Komponente A)",
+"name": "HEKAPUR Hartschaum H Komponente A (Materialnr. 000010)",
+"hazard_category": "Polyol component for polyurethane foam; causes serious eye irritation, suspected of damaging fertility and the unborn child",
+"pictograms": ["ghs07", "ghs08"],
+"safety_equipment": ["goggles", "gloves", "protective-clothing", "respiratory"],
+"hazards_description": "Classified as causing serious eye irritation (Eye Irrit. 2, H319) and as a suspected reproductive toxicant (Repr. 2, H361fd: suspected of damaging fertility and the unborn child). [attached_file:file:9] Contains alkylaminopolyoxyalkylenol (approx. 20–25%) and trimethylolpropane (approx. 1–5%), which contribute to eye irritation and reproductive toxicity classification. [attached_file:file:9]",
+"protective_measures": "Avoid any contact with eyes and skin and avoid inhalation of vapours or aerosols; ensure adequate general ventilation and, where possible, local exhaust at processing machines. [attached_file:file:9] Keep containers tightly closed, store in a cool, well-ventilated place protected from direct sunlight and away from food, drink and animal feed; do not expose to temperatures above 50 °C. [attached_file:file:9] Wear chemical-resistant protective gloves (e.g. butyl rubber approx. 0.7 mm or nitrile rubber approx. 0.4 mm with sufficient breakthrough time), safety goggles/face shield and suitable protective clothing; remove contaminated clothing immediately and wash hands thoroughly after work. [attached_file:file:9]",
+"emergency_procedures": "In case of accidental release, ensure good ventilation, keep away from ignition sources and use suitable personal protective equipment; avoid contact with skin, eyes and clothing. [attached_file:file:9] Prevent the product from entering drains, surface water or groundwater; absorb spilled material with suitable binders such as sand, diatomaceous earth, acid binder or universal binder and collect mechanically into appropriate containers for disposal. [attached_file:file:9] Contaminated surfaces must be thoroughly cleaned; disposal of collected material must follow local regulations. [attached_file:file:9]",
+"emergency_phone_reference": "GIZ-Nord, 24h-Notruf: +49 (0)551 19240; betriebliche Notrufnummer siehe Aushang. [attached_file:file:9]",
+"first_aid": {
+"hautkontakt": "Beschmutzte, getränkte Kleidung sofort ausziehen; betroffene Hautpartien mit viel Wasser und Seife gründlich waschen; bei Hautreizung oder -ausschlag ärztlichen Rat einholen oder ärztliche Hilfe hinzuziehen. [attached_file:file:9]",
+"augenkontakt": "Bei Kontakt mit den Augen sofort bei geöffnetem Lidspalt 10–15 Minuten mit fließendem Wasser spülen; vorhandene Kontaktlinsen nach Möglichkeit entfernen und weiter spülen; anschließend umgehend Augenarzt aufsuchen. [attached_file:file:9]",
+"verschlucken": "Mund sofort mit Wasser ausspülen und reichlich Wasser nachtrinken; einer bewusstlosen Person oder bei Krämpfen nichts über den Mund geben; kein Erbrechen herbeiführen; sofort Arzt hinzuziehen. [attached_file:file:9]",
+"einatmen": "Betroffene Person aus dem Gefahrenbereich an die frische Luft bringen und ruhig lagern; bei anhaltenden Beschwerden oder Unwohlsein ärztlichen Rat einholen. [attached_file:file:9]"
+},
+"first_aider_reference": "Ersthelfer sollen geeignete persönliche Schutzausrüstung tragen und kontaminierte Kleidung sofort entfernen; bei anhaltenden Beschwerden oder bei Augenbeteiligung immer ärztliche Hilfe hinzuziehen. [attached_file:file:9]",
+"disposal": "Prefer recycling or recovery where possible; otherwise dispose of product according to local official regulations, e.g. by controlled incineration; exact waste code must be agreed with the waste disposer or authority, as it depends on the actual use. [attached_file:file:9] Contaminated packaging must be handled like the substance; non-contaminated, completely emptied packaging can be sent for recycling after appropriate cleaning. [attached_file:file:9]",
+"responsible_person": "Gefahrstoffbeauftragte(r) / Verantwortliche Führungskraft"
+}

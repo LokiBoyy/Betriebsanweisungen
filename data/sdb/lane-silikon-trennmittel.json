@@ -1,0 +1,30 @@
+{
+  "id": "lane-silikon-trennmittel-82785",
+  "document_date": "13.06.2013",
+  "revision": "4",
+  "company_name": "W.R. LANG",
+  "workplace": "Kunststoff- / Elastomerverarbeitung",
+  "name": "LaNe Silikon-Trennmittel oliv (Art. 82785 ff.)",
+  "hazard_category": "Not classified as hazardous under CLP; weakly water-hazardous (WGK 1)",
+  "pictograms": [],
+  "safety_equipment": ["protective-gloves", "eye-protection", "protective-clothing"],
+  "hazards_description": "Mixture of hydroxy-terminated polydimethylsiloxane (silicone release agent) without classified dangerous ingredients; product is not classified as hazardous according to CLP and not subject to mandatory labelling under GefStoffV.[attached_file:file:17] Not explosive, not self-igniting, but can form carbon monoxide and carbon dioxide on combustion; spilled material creates slip hazard on floors.[attached_file:file:17]",
+  "composition": {
+    "description": "Hydroxy-terminated polydimethylsiloxane mixture; no dangerous components requiring classification are listed.[attached_file:file:17]"
+  },
+  "protective_measures": "Observe normal precautions when handling chemicals. Open and handle containers carefully; keep containers tightly closed. Ensure adequate general ventilation. Keep away from oxidizing agents and foodstuffs. Store cool, dry, protected from heat, direct sunlight, and frost at 20–25 °C in well-ventilated rooms; keep containers dry and tightly closed.[attached_file:file:17] Wear suitable protective gloves, safety goggles during decanting, and protective work clothing; select glove material based on breakthrough times and resistance, as no specific recommendation is possible for this preparation.[attached_file:file:17]",
+  "emergency_procedures": "In case of accidental release, beware of slip hazard. Provide adequate ventilation and wear personal protective clothing. Prevent entry into drains and water bodies. Absorb with liquid-binding material such as sand, diatomaceous earth, acid binder, universal binder, or sawdust, and dispose of according to Section 13.[attached_file:file:17] For fire, use CO₂, dry powder, water spray, or alcohol-resistant foam; avoid full water jet. Combustion may produce carbon monoxide; wear breathing apparatus.[attached_file:file:17]",
+  "emergency_phone_reference": "Giftnotruf Mainz (24 h): +49 (0)6131 19240.[attached_file:file:17]",
+  "first_aid": {
+    "inhalation": "Provide fresh air; consult a physician if symptoms occur.[attached_file:file:17]",
+    "skin_contact": "Remove contaminated clothing immediately. Dab affected skin areas with cotton or cellulose and then wash thoroughly with water and mild detergent.[attached_file:file:17]",
+    "eye_contact": "Rinse open eyes with running water for several minutes.[attached_file:file:17]",
+    "ingestion": "Consult a physician if complaints persist.[attached_file:file:17]"
+  },
+  "first_aider_reference": "No specific acute or delayed symptoms or special medical treatment are indicated beyond standard symptomatic care.[attached_file:file:17]",
+  "fire_suppression": "Suitable media: CO₂, dry powder, water spray; for larger fires, use water spray or alcohol-resistant foam. Unsuitable: full water jet. Wear respiratory protection; collect contaminated extinguishing water separately and prevent it from entering sewers.[attached_file:file:17]",
+  "disposal": "Must be subjected to special treatment under official regulations; do not dispose of with household waste and do not allow to reach sewage systems. Dispose of uncleaned packaging in accordance with local regulations.[attached_file:file:17]",
+  "transport_classification": "Not classified as dangerous goods for transport (ADR, ADN, IMDG, IATA); no UN number, no class, no packing group; not a marine pollutant.[attached_file:file:17]",
+  "environmental_hazard": "No specific aquatic toxicity data available. Classified as weakly hazardous to water (WGK 1); do not allow large quantities, especially undiluted product, to enter groundwater, surface water, or sewage systems.[attached_file:file:17]",
+  "responsible_person": "Produktsicherheit / W.R. LANG"
+}
